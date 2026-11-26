@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Open Graph 1200x630 Social Preview Card -->
+  <defs>
+    <radialGradient id="ogBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#211A16"/>
+      <stop offset="60%" stop-color="#0F0C0B"/>
+      <stop offset="100%" stop-color="#070605"/>
+    </radialGradient>
+    <linearGradient id="goldOG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#997010"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect x="25" y="25" width="1150" height="580" rx="16" fill="none" stroke="url(#goldOG)" stroke-width="2"/>
+  <rect x="35" y="35" width="1130" height="560" rx="12" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="8 6"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(600, 180) scale(0.65)">
+    <circle cx="0" cy="0" r="140" fill="#14110F" stroke="url(#goldOG)" stroke-width="4"/>
+    <text x="-5" y="25" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="96" fill="url(#goldOG)">
+      Amore
+    </text>
+    <path d="M0,50 C0,44 -8,40 -12,46 C-16,40 -24,44 -24,50 C-24,58 -12,64 -12,64 C-12,64 0,58 0,50 Z" fill="url(#goldOG)" transform="translate(12, 10)"/>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="'Playfair Display', serif" font-weight="700" font-size="64" fill="url(#goldOG)" letter-spacing="4">
+    Amore
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="390" text-anchor="middle" font-family="'Cinzel', serif" font-weight="500" font-size="24" fill="#F5E8BE" letter-spacing="6">
+    CELEBRATING LIFE'S LITTLE MOMENTS
+  </text>
+
+  <!-- Sub offerings line -->
+  <text x="600" y="445" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="300" font-size="22" fill="#E0D7D0" letter-spacing="3">
+    Revello Speciality Chocolates  ·  Cafe &amp; Private Parties  ·  Ice Cream Corner  ·  Custom Cakes
+  </text>
+
+  <!-- Bottom Information Bar -->
+  <g transform="translate(600, 520)">
+    <rect x="-350" y="-22" width="700" height="44" rx="22" fill="#1C1815" stroke="url(#goldOG)" stroke-width="1.2"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="500" font-size="16" fill="#F3E5AB" letter-spacing="1.5">
+      📍 250, Main Street, Kalutara South  |  💬 WhatsApp: +94 77 700 2044
+    </text>
+  </g>
+</svg>

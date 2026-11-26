@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Rich Metallic Gold Gradient -->
+    <linearGradient id="goldMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5BD"/>
+      <stop offset="15%" stop-color="#F2D574"/>
+      <stop offset="32%" stop-color="#D4A431"/>
+      <stop offset="48%" stop-color="#FDE89C"/>
+      <stop offset="65%" stop-color="#BD8C20"/>
+      <stop offset="82%" stop-color="#7C5606"/>
+      <stop offset="92%" stop-color="#DDAE3B"/>
+      <stop offset="100%" stop-color="#F7D878"/>
+    </linearGradient>
+
+    <!-- Horizontal Gold Gradient for Text Sheen -->
+    <linearGradient id="goldHoriz" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#ECC65F"/>
+      <stop offset="25%" stop-color="#FFF6C7"/>
+      <stop offset="50%" stop-color="#D9A835"/>
+      <stop offset="75%" stop-color="#FFF2B2"/>
+      <stop offset="100%" stop-color="#C59325"/>
+    </linearGradient>
+
+    <!-- Ring Bevel Gradient -->
+    <linearGradient id="ringBevel" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D1"/>
+      <stop offset="25%" stop-color="#E1B84C"/>
+      <stop offset="50%" stop-color="#8F640C"/>
+      <stop offset="75%" stop-color="#FDE796"/>
+      <stop offset="100%" stop-color="#AB7C18"/>
+    </linearGradient>
+
+    <!-- Heart Radial Glow -->
+    <radialGradient id="heartGlow" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFAD6"/>
+      <stop offset="40%" stop-color="#F4D368"/>
+      <stop offset="75%" stop-color="#C99824"/>
+      <stop offset="100%" stop-color="#754F04"/>
+    </radialGradient>
+
+    <!-- Foliage Green Gradients -->
+    <linearGradient id="leafDeep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B9559"/>
+      <stop offset="45%" stop-color="#235A31"/>
+      <stop offset="100%" stop-color="#0F2F17"/>
+    </linearGradient>
+    <linearGradient id="leafMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5CAE6C"/>
+      <stop offset="55%" stop-color="#2E713E"/>
+      <stop offset="100%" stop-color="#143E1F"/>
+    </linearGradient>
+
+    <!-- Autumn/Golden Leaf Gradient -->
+    <linearGradient id="leafGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A8"/>
+      <stop offset="50%" stop-color="#DCA836"/>
+      <stop offset="100%" stop-color="#7A5208"/>
+    </linearGradient>
+
+    <!-- Magnolia Petal Gradients -->
+    <linearGradient id="petalFront" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#FFFBF3"/>
+      <stop offset="85%" stop-color="#F3E7D5"/>
+      <stop offset="100%" stop-color="#DECBB2"/>
+    </linearGradient>
+    <linearGradient id="petalBack" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6EE"/>
+      <stop offset="50%" stop-color="#EFE3CF"/>
+      <stop offset="100%" stop-color="#CEB99B"/>
+    </linearGradient>
+    <linearGradient id="petalShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8DAC3"/>
+      <stop offset="100%" stop-color="#B8A281"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="softGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+    <filter id="goldShine" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#FFEBB0" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- 1. CIRCULAR BASE & METALLIC CONCENTRIC RINGS -->
+  <!-- ========================================== -->
+  <!-- Pure Black Core -->
+  <circle cx="300" cy="300" r="286" fill="#040404"/>
+
+  <!-- Outer Double Rings -->
+  <!-- Outer Primary Beveled Gold Ring -->
+  <circle cx="300" cy="300" r="274" fill="none" stroke="url(#ringBevel)" stroke-width="6.5" filter="url(#softGlow)"/>
+  <!-- Concentric Inner Thin Gold Ring -->
+  <circle cx="300" cy="300" r="264" fill="none" stroke="url(#goldMetallic)" stroke-width="2.2"/>
+
+  <!-- ========================================== -->
+  <!-- 2. TOP-RIGHT BOTANICAL MAGNOLIA CLUSTER    -->
+  <!-- ========================================== -->
+  <g id="topRightBotanical" filter="url(#softGlow)">
+    
+    <!-- Berry Stems & Golden Pearl Sprigs -->
+    <g id="berrySprigs" stroke="url(#goldMetallic)" fill="none" stroke-linecap="round">
+      <!-- Upper sprig -->
+      <path d="M 390 170 Q 365 140 355 125" stroke-width="1.8"/>
+      <path d="M 368 144 Q 355 142 342 148" stroke-width="1.4"/>
+      <path d="M 382 155 Q 360 165 348 180" stroke-width="1.4"/>
+      
+      <!-- Top berries -->
+      <circle cx="355" cy="125" r="5" fill="url(#goldMetallic)" stroke="none"/>
+      <circle cx="342" cy="148" r="4.2" fill="url(#goldMetallic)" stroke="none"/>
+      <circle cx="348" cy="180" r="4.6" fill="url(#goldMetallic)" stroke="none"/>
+
+      <!-- Right sprig -->
+      <path d="M 440 145 Q 470 120 492 110" stroke-width="1.8"/>
+      <path d="M 465 130 Q 485 135 500 148" stroke-width="1.4"/>
+      <path d="M 470 148 Q 482 170 488 185" stroke-width="1.4"/>
+
+      <!-- Right berries -->
+      <circle cx="492" cy="110" r="5.2" fill="url(#goldMetallic)" stroke="none"/>
+      <circle cx="500" cy="148" r="4.4" fill="url(#goldMetallic)" stroke="none"/>
+      <circle cx="488" cy="185" r="4.8" fill="url(#goldMetallic)" stroke="none"/>
+    </g>
+
+    <!-- Deep Botanical Leaves -->
+    <g id="leaves">
+      <!-- Leaf 1: Top-left pointing leaf -->
+      <path d="M 380 170 C 350 145 340 115 375 95 C 410 115 405 145 380 170 Z" fill="url(#leafDeep)"/>
+      <path d="M 380 170 Q 370 135 375 95" stroke="url(#goldMetallic)" stroke-width="1.2" fill="none"/>
+      <path d="M 376 150 Q 360 142 355 130 M 378 135 Q 365 125 362 115 M 377 145 Q 392 135 398 125" stroke="url(#goldMetallic)" stroke-width="0.7" fill="none" opacity="0.8"/>
+
+      <!-- Leaf 2: Top vertical leaf -->
+      <path d="M 415 160 C 405 120 420 80 440 75 C 460 95 450 135 415 160 Z" fill="url(#leafMid)"/>
+      <path d="M 415 160 Q 430 115 440 75" stroke="url(#goldMetallic)" stroke-width="1.2" fill="none"/>
+
+      <!-- Leaf 3: Far right leaf -->
+      <path d="M 450 185 C 485 165 525 170 540 195 C 515 220 475 210 450 185 Z" fill="url(#leafDeep)"/>
+      <path d="M 450 185 Q 495 190 540 195" stroke="url(#goldMetallic)" stroke-width="1.2" fill="none"/>
+
+      <!-- Leaf 4: Lower right leaf (Autumn Golden-tipped) -->
+      <path d="M 440 220 C 465 240 480 270 500 275 C 485 295 450 280 435 250 Z" fill="url(#leafGold)"/>
+      <path d="M 440 220 Q 465 255 500 275" stroke="#FFF2B2" stroke-width="1.2" fill="none"/>
+
+      <!-- Leaf 5: Mid-left leaf under flower -->
+      <path d="M 350 200 C 315 195 290 175 305 155 C 335 165 350 185 350 200 Z" fill="url(#leafMid)"/>
+      <path d="M 350 200 Q 320 180 305 155" stroke="url(#goldMetallic)" stroke-width="1.1" fill="none"/>
+    </g>
+
+    <!-- Magnolia Flower Blossom -->
+    <g id="magnoliaFlower" transform="translate(435, 190)">
+      
+      <!-- Layer 1: Background Petals -->
+      <path d="M 0 0 C -45 -55 -20 -95 15 -85 C 45 -70 25 -30 0 0 Z" fill="url(#petalBack)" stroke="#E4D3BC" stroke-width="0.8"/>
+      <path d="M 0 0 C 35 -60 80 -60 85 -20 C 70 15 35 15 0 0 Z" fill="url(#petalBack)" stroke="#E4D3BC" stroke-width="0.8"/>
+      <path d="M 0 0 C 40 10 75 45 50 75 C 20 80 5 45 0 0 Z" fill="url(#petalBack)" stroke="#E4D3BC" stroke-width="0.8"/>
+      <path d="M 0 0 C -25 25 -30 70 -65 65 C -85 45 -50 15 0 0 Z" fill="url(#petalBack)" stroke="#E4D3BC" stroke-width="0.8"/>
+      <path d="M 0 0 C -60 -10 -90 -45 -70 -75 C -40 -70 -20 -35 0 0 Z" fill="url(#petalBack)" stroke="#E4D3BC" stroke-width="0.8"/>
+
+      <!-- Layer 2: Main Foreground Curled Petals -->
+      <!-- Top Center Petal -->
+      <path d="M -15 -10 C -25 -65 25 -75 35 -40 C 40 -15 10 5 -15 -10 Z" fill="url(#petalFront)" stroke="#ECE0CD" stroke-width="1"/>
+      <!-- Right Cupped Petal -->
+      <path d="M 5 -15 C 35 -35 70 5 45 40 C 25 50 5 20 5 -15 Z" fill="url(#petalFront)" stroke="#ECE0CD" stroke-width="1"/>
+      <!-- Bottom Left Cupped Petal -->
+      <path d="M -10 5 C 10 35 -10 65 -40 50 C -60 30 -35 -5 -10 5 Z" fill="url(#petalFront)" stroke="#ECE0CD" stroke-width="1"/>
+      <!-- Left Overlay Petal -->
+      <path d="M -15 -15 C -45 -35 -65 5 -40 25 C -25 35 -5 5 -15 -15 Z" fill="url(#petalFront)" stroke="#ECE0CD" stroke-width="1"/>
+
+      <!-- Flower Center: Golden Stamen Cluster -->
+      <circle cx="0" cy="0" r="14" fill="#6A4C07"/>
+      <circle cx="0" cy="0" r="11" fill="url(#goldMetallic)"/>
+      <!-- Radiating golden beads/stamens -->
+      <g fill="#FFF5BF" stroke="#9E7310" stroke-width="0.5">
+        <circle cx="0" cy="-8" r="2.2"/><circle cx="5" cy="-6" r="2.2"/><circle cx="8" cy="-1" r="2.2"/>
+        <circle cx="7" cy="4" r="2.2"/><circle cx="3" cy="8" r="2.2"/><circle cx="-3" cy="8" r="2.2"/>
+        <circle cx="-7" cy="4" r="2.2"/><circle cx="-8" cy="-1" r="2.2"/><circle cx="-5" cy="-6" r="2.2"/>
+        <circle cx="0" cy="-4" r="1.8"/><circle cx="3" cy="-2" r="1.8"/><circle cx="3" cy="3" r="1.8"/>
+        <circle cx="-3" cy="3" r="1.8"/><circle cx="-3" cy="-2" r="1.8"/><circle cx="0" cy="0" r="2.2" fill="#FFE580"/>
+      </g>
+    </g>
+
+    <!-- Twin Floating Gold Hearts (Upper Right Border) -->
+    <g id="floatingHearts" stroke="url(#goldMetallic)" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <!-- Upper Heart -->
+      <path d="M 545 250 C 545 242 537 236 530 242 C 523 236 515 242 515 250 C 515 260 530 270 530 270 C 530 270 545 260 545 250 Z" transform="rotate(15 530 255)"/>
+      <!-- Lower Offset Heart -->
+      <path d="M 552 280 C 552 273 545 268 539 273 C 533 268 526 273 526 280 C 526 289 539 298 539 298 C 539 298 552 289 552 280 Z" transform="rotate(22 539 285) scale(0.85) translate(80, -30)"/>
+    </g>
+
+  </g>
+
+
+  <!-- ========================================== -->
+  <!-- 3. "AMORE" CALLIGRAPHIC WORDMARK           -->
+  <!-- ========================================== -->
+  <g id="amoreWordmark" filter="url(#goldShine)">
+    
+    <!-- Capital 'A' with grand swooping flourishes -->
+    <!-- The Top Loop & Left Swash -->
+    <path d="M 175 255 
+             C 145 272 108 275 88 252 
+             C 72 232 78 198 108 162 
+             C 142 122 195 95 240 135 
+             C 265 158 255 198 238 235 
+             L 175 350 
+             C 165 370 148 375 138 368 
+             C 128 360 135 340 145 320 
+             L 190 230 
+             C 205 200 215 168 198 155 
+             C 175 138 138 165 115 195 
+             C 98 218 95 238 105 248 
+             C 118 258 145 252 175 235 Z" 
+          fill="url(#goldMetallic)"/>
+
+    <!-- Left Leg Descending Tail with Curls -->
+    <path d="M 125 315 
+             C 105 335 75 345 55 330 
+             C 42 320 45 300 62 290 
+             C 75 282 92 290 88 305 
+             C 85 315 75 318 68 312 
+             C 65 308 68 300 75 298 
+             C 80 298 82 305 78 308 
+             C 76 310 74 308 75 305 Z" 
+          fill="url(#goldMetallic)"/>
+
+    <!-- Right Stem descending into sweeping Underline Flourish -->
+    <path d="M 235 150 
+             L 268 335 
+             C 270 348 260 358 245 358 
+             C 215 358 190 340 178 325 
+             C 172 318 178 312 185 315 
+             C 195 325 218 342 245 342 
+             C 252 342 255 338 252 325 
+             L 230 200 
+             C 225 175 230 155 235 150 Z" 
+          fill="url(#goldMetallic)"/>
+
+    <!-- Connecting flourish sweeping under 'more' -->
+    <path d="M 248 340 
+             C 290 350 350 352 420 342 
+             C 455 337 485 325 500 310 
+             C 505 305 510 310 505 315 
+             C 485 335 450 348 415 352 
+             C 345 362 285 358 248 340 Z" 
+          fill="url(#goldMetallic)"/>
+
+    <!-- Small letter 'm' -->
+    <g transform="translate(252, 240)">
+      <!-- First Arch -->
+      <path d="M 5 65 L 18 20 C 22 8 32 5 42 12 C 50 18 52 28 48 40 L 40 65 L 28 65 L 36 38 C 38 30 35 24 28 20 C 22 18 16 22 14 30 L 2 65 Z" fill="url(#goldMetallic)"/>
+      <!-- Second Arch -->
+      <path d="M 38 38 C 45 22 55 12 68 12 C 78 12 85 20 82 32 L 72 65 L 60 65 L 70 34 C 72 26 68 20 60 20 C 52 20 46 26 44 35 L 34 65 L 24 65 Z" fill="url(#goldMetallic)"/>
+      <!-- Third Arch with exit kick -->
+      <path d="M 70 34 C 78 20 88 12 100 12 C 112 12 118 20 115 34 L 105 65 C 104 68 108 72 114 68 C 120 64 125 58 128 52 L 130 55 C 125 64 116 75 105 75 C 95 75 92 68 94 58 L 102 32 C 104 25 100 20 92 20 C 85 20 78 25 76 35 Z" fill="url(#goldMetallic)"/>
+    </g>
+
+    <!-- Letter 'o' with SIGNATURE GOLDEN HEART IN CENTER -->
+    <g transform="translate(378, 240)">
+      <!-- Outer Oval -->
+      <path d="M 35 12 
+               C 58 12 72 28 68 50 
+               C 64 72 45 88 22 88 
+               C -2 88 -14 70 -10 48 
+               C -6 26 12 12 35 12 Z 
+               M 32 24 
+               C 18 24 6 36 3 50 
+               C 0 64 12 76 25 76 
+               C 40 76 52 64 55 48 
+               C 58 34 46 24 32 24 Z" 
+            fill="url(#goldMetallic)"/>
+
+      <!-- CENTER GOLDEN HEART EMBLEM INSIDE 'O' -->
+      <path d="M 29 38 
+               C 29 30 20 26 15 32 
+               C 10 26 1 30 1 38 
+               C 1 48 15 60 15 60 
+               C 15 60 29 48 29 38 Z" 
+            fill="url(#heartGlow)" stroke="#FFF2B2" stroke-width="0.8" filter="url(#goldShine)"/>
+    </g>
+
+    <!-- Letter 'r' -->
+    <g transform="translate(450, 248)">
+      <path d="M 8 57 L 22 8 C 24 2 28 0 32 0 C 35 0 36 4 33 12 L 25 35 C 32 22 42 12 52 10 C 60 8 66 12 65 18 C 64 24 58 26 52 24 C 42 22 32 30 26 44 L 18 68 L 5 68 L 8 57 Z" fill="url(#goldMetallic)"/>
+      <circle cx="58" cy="16" r="3.5" fill="url(#goldMetallic)"/>
+    </g>
+
+    <!-- Letter 'e' -->
+    <g transform="translate(505, 248)">
+      <path d="M 28 8 
+               C 45 8 58 20 54 38 
+               L 8 45 
+               C 8 58 18 68 32 68 
+               C 42 68 50 62 55 54 
+               L 62 58 
+               C 55 70 42 78 28 78 
+               C 8 78 -5 62 -2 42 
+               C 2 22 15 8 28 8 Z 
+               M 26 18 
+               C 16 18 10 26 9 37 
+               L 42 33 
+               C 44 24 36 18 26 18 Z" 
+            fill="url(#goldMetallic)"/>
+    </g>
+
+  </g>
+
+
+  <!-- ========================================== -->
+  <!-- 4. CENTER DIVIDER: HEART & FLOURISH LINES  -->
+  <!-- ========================================== -->
+  <g id="dividerOrnament" filter="url(#goldShine)">
+    <!-- Left Tapered Line -->
+    <path d="M 120 372 C 170 371 225 372 278 372 C 278 373.8 225 374.8 170 373.8 Z" fill="url(#goldMetallic)"/>
+    
+    <!-- Center Polished Heart -->
+    <path d="M 300 362 
+             C 300 354 290 350 284 357 
+             C 278 350 268 354 268 362 
+             C 268 374 284 384 284 384 
+             C 284 384 300 374 300 362 Z" 
+          fill="url(#heartGlow)" stroke="#FFF8D1" stroke-width="0.8" transform="translate(16, -2) scale(0.9)"/>
+    
+    <!-- Right Tapered Line -->
+    <path d="M 322 372 C 375 372 430 371 480 372 C 480 373.8 430 374.8 375 373.8 Z" fill="url(#goldMetallic)"/>
+  </g>
+
+
+  <!-- ========================================== -->
+  <!-- 5. TAGLINE: TITLE CASE SERIF TYPOGRAPHY    -->
+  <!-- ========================================== -->
+  <g id="tagline" filter="url(#goldShine)">
+    <text x="300" y="415" 
+          text-anchor="middle" 
+          font-family="'Playfair Display', 'Cinzel', 'Baskerville', 'Georgia', serif" 
+          font-weight="600" 
+          font-size="22" 
+          fill="url(#goldMetallic)" 
+          letter-spacing="0.5">
+      Celebrating Life’s Little Moments
+    </text>
+  </g>
+
+
+  <!-- ========================================== -->
+  <!-- 6. BOTTOM BOTANICAL LAUREL & GOLD LEAVES   -->
+  <!-- ========================================== -->
+  <g id="bottomLaurel" filter="url(#softGlow)">
+    <!-- Graceful Curved Gold Vine -->
+    <path d="M 170 445 Q 300 535 430 445" fill="none" stroke="url(#goldMetallic)" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- Left Foliage Leaves -->
+    <g id="leftBottomLeaves">
+      <!-- Outer leaf -->
+      <path d="M 200 458 C 175 460 160 480 175 495 C 195 490 205 475 200 458 Z" fill="url(#leafDeep)"/>
+      <path d="M 200 458 Q 185 480 175 495" stroke="url(#goldMetallic)" stroke-width="0.9" fill="none"/>
+      <!-- Mid leaf -->
+      <path d="M 235 480 C 215 490 210 515 228 525 C 245 515 248 495 235 480 Z" fill="url(#leafMid)"/>
+      <path d="M 235 480 Q 225 505 228 525" stroke="url(#goldMetallic)" stroke-width="0.9" fill="none"/>
+    </g>
+
+    <!-- Right Foliage Leaves -->
+    <g id="rightBottomLeaves">
+      <!-- Outer leaf -->
+      <path d="M 400 458 C 425 460 440 480 425 495 C 405 490 395 475 400 458 Z" fill="url(#leafDeep)"/>
+      <path d="M 400 458 Q 415 480 425 495" stroke="url(#goldMetallic)" stroke-width="0.9" fill="none"/>
+      <!-- Mid leaf -->
+      <path d="M 365 480 C 385 490 390 515 372 525 C 355 515 352 495 365 480 Z" fill="url(#leafMid)"/>
+      <path d="M 365 480 Q 375 505 372 525" stroke="url(#goldMetallic)" stroke-width="0.9" fill="none"/>
+    </g>
+
+    <!-- Center Gold Leaf Accent -->
+    <path d="M 270 502 C 285 485 315 485 330 502 C 315 528 285 528 270 502 Z" fill="url(#leafGold)"/>
+    <path d="M 270 502 Q 300 495 330 502" stroke="#FFF5BD" stroke-width="1.1" fill="none"/>
+  </g>
+
+</svg>

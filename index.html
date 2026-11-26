@@ -1,0 +1,2085 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amore — Cafe, Revello Chocolates, Cakes &amp; Private Parties | Kalutara</title>
+  <meta name="description" content="Amore Kalutara: Home of Revello Speciality Chocolates, artisan cafe bakery &amp; coffee, custom Sama Dream Cakes, ice cream corner, and private celebration venue.">
+  <link rel="canonical" href="https://amorekalutara.com/">
+  
+  <!-- Open Graph / Facebook / WhatsApp Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://amorekalutara.com/">
+  <meta property="og:title" content="Amore — Celebrating Life's Little Moments">
+  <meta property="og:description" content="Revello Speciality Chocolates, Amore Cafe, Custom Celebration Cakes, and Private Party Space in Kalutara South.">
+  <meta property="og:image" content="./public/brand/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./public/brand/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#0D0B0A',
+              surface: '#171412',
+              'surface-card': '#201C19',
+              chocolate: '#321610',
+              'chocolate-dark': '#230E09',
+              gold: '#D4AF37',
+              'gold-light': '#F3E5AB',
+              'gold-dark': '#AA820A',
+              'pink-soft': '#FDF2F4',
+              'pink-accent': '#F48FB1',
+              'pink-deep': '#C2185B',
+              cream: '#FAF8F5',
+              'cream-card': '#FFFFFF',
+              leaf: '#2D5A27'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            display: ['Cinzel', '"Playfair Display"', 'serif'],
+            sans: ['Montserrat', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Gold Foil Text Gradient */
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #FBF0B9 0%, #D4AF37 50%, #B38F28 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Ambient Hero Background with Real Storefront Photography */
+    .hero-bg {
+      background: radial-gradient(circle at 50% 40%, rgba(50, 22, 16, 0.75) 0%, rgba(13, 11, 10, 0.95) 80%),
+                  linear-gradient(rgba(13, 11, 10, 0.75), rgba(13, 11, 10, 0.95)),
+                  url('./Exterior photos/Location photo.jpg') center/cover no-repeat;
+    }
+
+    /* Smooth Image Transitions */
+    .img-zoom {
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .group:hover .img-zoom {
+      transform: scale(1.06);
+    }
+
+    /* Scroll Margin for Sticky Navbar Offset */
+    section {
+      scroll-margin-top: 5rem;
+    }
+
+    /* Subtle pulse animation for floating WhatsApp */
+    @keyframes pulseRing {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+      70% { transform: scale(1); box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    }
+    .whatsapp-pulse {
+      animation: pulseRing 2.2s infinite;
+    }
+  </style>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Amore",
+    "alternateName": "Revello Speciality & Sama Dream Cakes by Amore",
+    "image": "https://amorekalutara.com/Exterior photos/Location photo.jpg",
+    "description": "Multi-experience destination in Kalutara featuring Revello Speciality Chocolates, Amore Cafe, Sama Dream Cakes, ice cream corner, and private celebration venue.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "250, Main Street",
+      "addressLocality": "Kalutara South",
+      "addressRegion": "Western Province",
+      "addressCountry": "LK"
+    },
+    "telephone": "+94777002044",
+    "hasMap": "https://maps.app.goo.gl/i3GJw5g5CaHuZ89R6",
+    "priceRange": "$$",
+    "servesCuisine": "Cafe, Handcrafted Chocolates, Custom Cakes, Beverages, Pastries",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "10:00",
+        "closes": "21:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-brand-cream text-brand-dark font-sans antialiased selection:bg-brand-gold/30 selection:text-brand-dark">
+
+  <!-- ========================================================================= -->
+  <!-- 1. STICKY NAVBAR -->
+  <!-- ========================================================================= -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-brand-dark/95 backdrop-blur-md border-b border-brand-gold/20 py-3.5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Logo link -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <img src="./public/brand/logo-light.svg" alt="Amore Logo" class="h-11 w-11 object-contain transition-transform group-hover:scale-105">
+        <div>
+          <span class="block font-serif text-xl sm:text-2xl font-bold tracking-wider text-gold-gradient">Amore</span>
+          <span class="block font-display text-[9px] uppercase tracking-widest text-zinc-400 -mt-1">Kalutara South</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-7 text-xs tracking-wider uppercase font-medium text-zinc-300">
+        <a href="#home" class="hover:text-brand-gold transition-colors py-1">Home</a>
+        <a href="#offerings" class="hover:text-brand-gold transition-colors py-1">Offerings</a>
+        <a href="#revello" class="hover:text-brand-gold transition-colors py-1">Revello</a>
+        <a href="#cafe" class="hover:text-brand-gold transition-colors py-1">Cafe</a>
+        <a href="#ice-cream" class="hover:text-brand-gold transition-colors py-1">Ice Cream</a>
+        <a href="#cakes" class="hover:text-brand-gold transition-colors py-1">Cakes</a>
+        <a href="#party" class="hover:text-brand-gold transition-colors py-1">Party Area</a>
+        <a href="#about" class="hover:text-brand-gold transition-colors py-1">About</a>
+        <a href="#contact" class="hover:text-brand-gold transition-colors py-1">Contact</a>
+      </nav>
+
+      <!-- Primary Action CTA -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I%20would%20like%20to%20order%20or%20make%20an%20inquiry." 
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-brand-gold hover:from-amber-600 hover:to-amber-500 text-brand-dark px-4 py-2 rounded-full font-semibold text-xs tracking-wider uppercase shadow-md hover:shadow-brand-gold/30 transition-all transform hover:-translate-y-0.5">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Order / Enquire</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-toggle" aria-label="Toggle Navigation Menu" class="lg:hidden text-brand-gold p-1.5 focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div id="mobile-drawer" class="fixed inset-y-0 right-0 w-72 bg-brand-dark border-l border-brand-gold/20 shadow-2xl p-6 transform translate-x-full transition-transform duration-300 ease-in-out z-50 flex flex-col justify-between lg:hidden">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-white/10">
+          <div class="flex items-center gap-2">
+            <img src="./public/brand/logo-light.svg" alt="Amore" class="h-9 w-9">
+            <span class="font-serif text-lg font-bold text-gold-gradient">Amore</span>
+          </div>
+          <button id="mobile-close" aria-label="Close Navigation Menu" class="text-zinc-400 hover:text-white p-1">
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <nav class="flex flex-col gap-4 mt-6 text-sm uppercase tracking-wider font-medium text-zinc-300">
+          <a href="#home" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Home</a>
+          <a href="#offerings" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Offerings</a>
+          <a href="#revello" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Revello Chocolates</a>
+          <a href="#cafe" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Amore Cafe</a>
+          <a href="#ice-cream" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Ice Cream Corner</a>
+          <a href="#cakes" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Custom Cakes</a>
+          <a href="#party" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">Private Party Area</a>
+          <a href="#about" class="mobile-link hover:text-brand-gold transition-colors py-2 border-b border-white/5">About &amp; Gallery</a>
+          <a href="#contact" class="mobile-link hover:text-brand-gold transition-colors py-2">Contact &amp; Map</a>
+        </nav>
+      </div>
+
+      <div class="pt-6 border-t border-white/10">
+        <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I%20would%20like%20to%20order%20or%20make%20an%20inquiry." 
+           target="_blank" rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-dark py-3 rounded-full font-semibold text-xs uppercase tracking-wider shadow-lg">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp Chat</span>
+        </a>
+        <div class="flex flex-wrap items-center justify-center gap-3 mt-4">
+          <a href="https://www.facebook.com/share/1FJDSpR9XA/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="text-xs text-zinc-400 hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Cafe FB</span>
+          </a>
+          <span class="text-zinc-600">·</span>
+          <a href="https://www.facebook.com/share/19pTY9JCZ1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="text-xs text-zinc-400 hover:text-pink-400 flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Cakes FB</span>
+          </a>
+          <span class="text-zinc-600">·</span>
+          <a href="https://www.tiktok.com/@samadreamcakes?_r=1&amp;_t=ZS-9BhU23ATOir" target="_blank" rel="noopener noreferrer" class="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0 text-pink-400" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68 6.34 6.34 0 0 0 9.35 22a6.33 6.33 0 0 0 6.34-6.32V8.45a8.28 8.28 0 0 0 4.9 1.6V6.69z"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+        <p class="text-center text-[11px] text-zinc-500 mt-3">250, Main Street, Kalutara South</p>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================= -->
+  <!-- 2. HERO SECTION (#home) -->
+  <!-- ========================================================================= -->
+  <section id="home" class="relative min-h-screen flex items-center justify-center text-center px-4 pt-24 pb-16 hero-bg text-white overflow-hidden">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-brand-dark/80 pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+      
+      <!-- Master Logo Emblem -->
+      <div class="mb-6 transform transition-transform hover:scale-105 duration-500">
+        <img src="./public/brand/logo-primary.svg" alt="Amore — Celebrating Life's Little Moments" class="w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 object-contain drop-shadow-2xl">
+      </div>
+
+      <!-- Tagline from Brand PDF -->
+      <p class="font-display text-xs sm:text-sm uppercase tracking-[0.3em] text-brand-gold mb-3 font-semibold">
+        Celebrating Life's Little Moments
+      </p>
+
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-4 text-gold-gradient">
+        Amore
+      </h1>
+
+      <!-- One-line description as per blueprint -->
+      <p class="text-sm sm:text-base md:text-lg font-light text-zinc-300 max-w-2xl mb-8 tracking-wide">
+        Chocolates &nbsp;·&nbsp; Cafe &nbsp;·&nbsp; Ice Cream &nbsp;·&nbsp; Custom Cakes &nbsp;·&nbsp; Private Parties
+      </p>
+
+      <!-- Dual CTAs -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+        <a href="#cafe" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-brand-gold text-brand-dark font-semibold text-xs uppercase tracking-widest hover:bg-amber-400 transition-all transform hover:-translate-y-0.5 shadow-lg shadow-brand-gold/20">
+          Explore Our Menu
+        </a>
+        <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I%20would%20like%20to%20order%20or%20make%20an%20inquiry." 
+           target="_blank" rel="noopener noreferrer"
+           class="w-full sm:w-auto px-8 py-3.5 rounded-full border border-brand-gold/60 text-brand-gold-light font-semibold text-xs uppercase tracking-widest hover:bg-brand-gold/15 transition-all flex items-center justify-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4 text-brand-gold"></i>
+          <span>Order on WhatsApp</span>
+        </a>
+      </div>
+
+      <!-- Real Storefront Pill with image preview -->
+      <div class="mt-12 inline-flex items-center gap-3 px-4 py-2 rounded-full bg-black/60 border border-brand-gold/30 text-xs text-zinc-300 backdrop-blur-md cursor-pointer hover:border-brand-gold" onclick="openPhotoModal('./Exterior photos/Location photo.jpg', 'Amore Storefront Facade', '250, Main Street, Kalutara South')">
+        <img src="./Exterior photos/Location photo.jpg" alt="Storefront thumbnail" class="w-6 h-6 rounded-full object-cover border border-brand-gold">
+        <div class="flex items-center gap-1.5">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-gold"></i>
+          <span>250, Main Street, Kalutara South</span>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#offerings" aria-label="Scroll down to offerings" class="mt-10 text-brand-gold/70 hover:text-brand-gold animate-bounce">
+        <i data-lucide="chevron-down" class="w-6 h-6"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 3. OFFERINGS OVERVIEW (#offerings) -->
+  <!-- ========================================================================= -->
+  <section id="offerings" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold-dark block mb-2">Our World</span>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">Four Signature Experiences</h2>
+      <p class="text-zinc-600 text-sm mt-3">From rich handcrafted chocolates to bespoke celebration cakes and party spaces, discover what makes Amore unforgettable.</p>
+    </div>
+
+    <!-- 2x2 Grid with Real Customer Photography -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Offering 1: Revello Chocolates -->
+      <div class="group relative rounded-2xl overflow-hidden bg-brand-chocolate text-white shadow-xl border border-brand-gold/20 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:border-brand-gold/50">
+        <div class="relative h-64 overflow-hidden">
+          <img src="./Gift boxes/Assorted Gold Gift Pack.jpg" alt="Revello Handcrafted Chocolates" class="w-full h-full object-cover img-zoom">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-chocolate via-brand-chocolate/40 to-transparent"></div>
+          <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] tracking-wider uppercase font-semibold bg-brand-gold/90 text-brand-dark shadow">
+            Artisan Confectionery
+          </span>
+        </div>
+        <div class="p-8">
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold mb-2 text-gold-gradient">Revello Chocolates</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Handcrafted luxury bonbons, single-origin truffles, rich molten drinking chocolate, and custom satin gift hampers.
+          </p>
+          <a href="#revello" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-brand-gold group-hover:text-amber-300">
+            <span>Explore Revello Collection</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Offering 2: Amore Cafe & Party Area -->
+      <div class="group relative rounded-2xl overflow-hidden bg-brand-surface text-white shadow-xl border border-white/10 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:border-brand-gold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="./Interior photos/eb7de7a6-ea25-49ea-8c63-c5cd400a93b0.jpg" alt="Amore Cafe & Party Lounge" class="w-full h-full object-cover img-zoom">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-surface via-brand-surface/40 to-transparent"></div>
+          <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] tracking-wider uppercase font-semibold bg-white/20 text-white backdrop-blur-sm border border-white/20">
+            Private Lounge &amp; Cafe
+          </span>
+        </div>
+        <div class="p-8">
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold mb-2 text-white">Amore Cafe &amp; Party Area</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Freshly baked savory rolls, pastries, brownies, barista espresso, and a dedicated bookable private space for your celebrations.
+          </p>
+          <a href="#cafe" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-brand-gold group-hover:text-amber-300">
+            <span>Explore Cafe &amp; Party Space</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Offering 3: Ice Cream Corner -->
+      <div class="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 text-brand-dark shadow-xl border border-amber-200/60 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:border-brand-gold">
+        <div class="p-8 sm:p-10">
+          <div class="flex items-center justify-between mb-4">
+            <span class="inline-block px-3 py-1 rounded-full text-[10px] tracking-wider uppercase font-semibold bg-amber-200/50 text-amber-900">
+              Custom Creations
+            </span>
+            <i data-lucide="ice-cream" class="w-6 h-6 text-amber-700"></i>
+          </div>
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold mb-3 text-amber-950">Ice Cream Corner</h3>
+          <p class="text-zinc-600 text-sm leading-relaxed mb-6">
+            Tailor-made ice cream indulgence: choose your rich creamy base, infuse favorite flavors, and customize with Revello chocolate drizzles and crunchy toppings.
+          </p>
+        </div>
+        <div class="px-8 pb-8">
+          <a href="#ice-cream" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-amber-900 hover:text-amber-700">
+            <span>Discover Creations</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Offering 4: Homemade Cakes -->
+      <div class="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100 text-brand-dark shadow-xl border border-pink-200 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:border-pink-300">
+        <div class="relative h-64 overflow-hidden">
+          <img src="./Cakes/Hero.jpg" alt="Sama Dream Cakes Custom Strawberry Drip Cake" class="w-full h-full object-cover img-zoom">
+          <div class="absolute inset-0 bg-gradient-to-t from-pink-100 via-pink-100/30 to-transparent"></div>
+          <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] tracking-wider uppercase font-semibold bg-brand-pink-deep text-white shadow">
+            Sama Dream Cakes
+          </span>
+        </div>
+        <div class="p-8">
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold mb-2 text-brand-dark">Custom Celebration Cakes</h3>
+          <p class="text-zinc-600 text-sm leading-relaxed mb-6">
+            Custom-made cakes crafted for weddings, birthdays, anniversaries, graduations, and baby showers. Turning your sweetest dream into reality.
+          </p>
+          <a href="#cakes" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-brand-pink-deep hover:text-pink-700">
+            <span>Browse Cake Gallery</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 4. REVELLO SPECIALITY CHOCOLATES (#revello) -->
+  <!-- ========================================================================= -->
+  <section id="revello" class="py-24 bg-brand-chocolate-dark text-white border-y border-brand-gold/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Header with Revello Logo -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-block mb-4">
+          <img src="./public/brand/logo-revello.svg" alt="Revello Speciality Chocolates" class="h-20 sm:h-24 mx-auto object-contain">
+        </div>
+        <p class="text-sm sm:text-base text-zinc-300 font-light leading-relaxed">
+          Crafted with passion and artisanal devotion. Revello Speciality offers silky handcrafted bonbons, single-origin chocolate truffles, velvety drinking chocolate, and bespoke gift hampers designed to elevate every celebratory milestone.
+        </p>
+      </div>
+
+      <!-- Real Boutique Counter Showcase Photo -->
+      <div class="relative rounded-3xl overflow-hidden mb-16 border border-brand-gold/30 shadow-2xl group cursor-pointer" onclick="openPhotoModal('./Interior photos/796276087_1080041264995592_806912621322252294_n.jpg', 'Revello Speciality Showcase Counter', 'Our freshly prepared daily assortment of handcrafted bonbons, pralines, and truffles.')">
+        <div class="h-72 sm:h-96 w-full overflow-hidden">
+          <img src="./Interior photos/796276087_1080041264995592_806912621322252294_n.jpg" alt="Illuminated Revello Speciality display case with bonbons" class="w-full h-full object-cover img-zoom">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-6 sm:p-8">
+          <div>
+            <span class="text-xs uppercase font-semibold tracking-widest text-brand-gold block mb-1">Fresh Daily at Amore Kalutara</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-2">Artisan Chocolate Display Counter</h3>
+            <p class="text-xs sm:text-sm text-zinc-300 max-w-xl">
+              Rows of freshly prepared ganaches, cashew clusters, rum &amp; raisin, caramel cups, and liqueur bonbons crafted for connoisseurs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Handmade Chocolates Showcase (6 Real Items) -->
+      <div class="mb-16">
+        <div class="flex items-center justify-between mb-8">
+          <div>
+            <span class="text-xs uppercase tracking-widest font-semibold text-brand-gold block mb-1">Signature Confections</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Handcrafted Chocolates</h3>
+          </div>
+          <span class="text-xs text-zinc-400 italic hidden sm:inline">* Inquire for daily availability</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          
+          <!-- Chocolate 1: Almond Charm -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Almond Charm.jpg', 'Almond Charm Praline', 'Finely roasted almonds crushed into silky hazelnut milk ganache in a fluted cup.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Almond Charm.jpg" alt="Almond Charm" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Almond Charm</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Roasted Almond Ganache</p>
+            </div>
+          </div>
+
+          <!-- Chocolate 2: Cashew Cluster -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Cashew Cluster.jpg', 'Cashew Cluster Truffle', 'Rich Sri Lankan cashew nuts folded into slow-tempered milk chocolate.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Cashew Cluster.jpg" alt="Cashew Cluster" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Cashew Cluster</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Roasted Cashew Truffle</p>
+            </div>
+          </div>
+
+          <!-- Chocolate 3: Rose Praline -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Rose.jpg', 'Rose Infused Praline', 'Delicately molded chocolate flower infused with fragrant rose essence.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Rose.jpg" alt="Rose Praline" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Rose Praline</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Molded Floral Petal</p>
+            </div>
+          </div>
+
+          <!-- Chocolate 4: Milk Chocolate Heart -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Plain Milk Chocolate Heart.jpg', 'Milk Chocolate Heart', 'Signature heart-shaped solid tempered milk chocolate with white artisan drizzle.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Plain Milk Chocolate Heart.jpg" alt="Milk Chocolate Heart" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Milk Choc Heart</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Artisan Drizzle Heart</p>
+            </div>
+          </div>
+
+          <!-- Chocolate 5: Apricot & Marzipan -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Apricot & Marzipan.jpg', 'Apricot & Marzipan Bonbon', 'Traditional almond marzipan combined with tangy dried apricot compote.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Apricot & Marzipan.jpg" alt="Apricot & Marzipan" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Apricot Marzipan</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Fruity Almond Paste</p>
+            </div>
+          </div>
+
+          <!-- Chocolate 6: Coffee Delight -->
+          <div class="bg-brand-chocolate rounded-xl overflow-hidden border border-brand-gold/20 p-3 flex flex-col justify-between group hover:border-brand-gold/60 transition-all cursor-pointer" onclick="openPhotoModal('./Handmade chocolates/Coffee Delight.jpg', 'Coffee Delight Espresso', 'Intense freshly roasted Arabica coffee ganache in tempered milk chocolate.')">
+            <div class="aspect-square rounded-lg overflow-hidden mb-3 bg-black/40">
+              <img src="./Handmade chocolates/Coffee Delight.jpg" alt="Coffee Delight" class="w-full h-full object-cover img-zoom">
+            </div>
+            <div>
+              <h5 class="font-serif text-sm font-bold text-brand-gold-light truncate">Coffee Delight</h5>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Espresso Ganache</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Revello Luxury Gift Packs Carousel / Showcase -->
+      <div>
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4">
+          <div>
+            <span class="text-xs uppercase tracking-widest font-semibold text-brand-gold block mb-1">Celebration Gifting</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Luxury Gift Packs</h3>
+          </div>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore%20%26%20Revello%20team!%20%F0%9F%8D%AB%0A%0AI%20am%20interested%20in%20your%20Revello%20Chocolate%20Gift%20Packs.%20Could%20you%20please%20share%20options%20and%20pricing%3F"
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 bg-brand-gold hover:bg-amber-400 text-brand-dark px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-colors shadow">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Enquire About Gift Packs</span>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Gift 1: Assorted Gold -->
+          <div class="bg-brand-chocolate rounded-2xl overflow-hidden border border-brand-gold/30 p-5 flex flex-col justify-between group shadow-xl">
+            <div>
+              <div class="aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-black/30 cursor-pointer" onclick="openPhotoModal('./Gift boxes/Assorted Gold Gift Pack.jpg', 'Assorted Gold Gift Pack', '216g net weight containing 15 finest handcrafted chocolates.')">
+                <img src="./Gift boxes/Assorted Gold Gift Pack.jpg" alt="Assorted Gold Gift Pack" class="w-full h-full object-cover img-zoom">
+              </div>
+              <span class="text-[10px] uppercase font-bold tracking-wider text-brand-gold block mb-1">15 Chocolates · 216g</span>
+              <h4 class="font-serif text-lg font-bold text-white mb-2">Assorted Gold Pack</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed mb-4">
+                Luxurious gold-and-black presentation box featuring milk, dark, and white chocolate pralines.
+              </p>
+            </div>
+            <span class="text-xs text-brand-gold italic">Ask us for pricing</span>
+          </div>
+
+          <!-- Gift 2: Celebration Pack -->
+          <div class="bg-brand-chocolate rounded-2xl overflow-hidden border border-brand-gold/30 p-5 flex flex-col justify-between group shadow-xl">
+            <div>
+              <div class="aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-black/30 cursor-pointer" onclick="openPhotoModal('./Gift boxes/Celebration Gift Pack.jpg', 'Celebration Gift Pack', '210g net weight containing 15 handcrafted confections.')">
+                <img src="./Gift boxes/Celebration Gift Pack.jpg" alt="Celebration Gift Pack" class="w-full h-full object-cover img-zoom">
+              </div>
+              <span class="text-[10px] uppercase font-bold tracking-wider text-brand-gold block mb-1">15 Chocolates · 210g</span>
+              <h4 class="font-serif text-lg font-bold text-white mb-2">Celebration Gift Pack</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed mb-4">
+                Rich cocoa-toned keepsake box with hot-stamped gold lettering. Perfect for milestone celebrations.
+              </p>
+            </div>
+            <span class="text-xs text-brand-gold italic">Ask us for pricing</span>
+          </div>
+
+          <!-- Gift 3: Roses Pack -->
+          <div class="bg-brand-chocolate rounded-2xl overflow-hidden border border-brand-gold/30 p-5 flex flex-col justify-between group shadow-xl">
+            <div>
+              <div class="aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-black/30 cursor-pointer" onclick="openPhotoModal('./Gift boxes/Roses Pack.jpg', 'Roses Handcrafted Pack', '192g net weight containing sculpted white & dark chocolate roses.')">
+                <img src="./Gift boxes/Roses Pack.jpg" alt="Roses Chocolate Pack" class="w-full h-full object-cover img-zoom">
+              </div>
+              <span class="text-[10px] uppercase font-bold tracking-wider text-brand-gold block mb-1">16 Roses · 192g</span>
+              <h4 class="font-serif text-lg font-bold text-white mb-2">Handcrafted Roses Pack</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed mb-4">
+                Vintage botanical floral packaging filled with sculpted dark and white chocolate roses.
+              </p>
+            </div>
+            <span class="text-xs text-brand-gold italic">Ask us for pricing</span>
+          </div>
+
+          <!-- Gift 4: The Signature Collection -->
+          <div class="bg-brand-chocolate rounded-2xl overflow-hidden border border-brand-gold/30 p-5 flex flex-col justify-between group shadow-xl">
+            <div>
+              <div class="aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-black/30 cursor-pointer" onclick="openPhotoModal('./Gift boxes/Signature Gift Pack.jpg', 'The Signature Collection', '416g master assortment of 27 handcrafted chocolates.')">
+                <img src="./Gift boxes/Signature Gift Pack.jpg" alt="Signature Gift Pack" class="w-full h-full object-cover img-zoom">
+              </div>
+              <span class="text-[10px] uppercase font-bold tracking-wider text-brand-gold block mb-1">27 Chocolates · 416g</span>
+              <h4 class="font-serif text-lg font-bold text-white mb-2">The Signature Collection</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed mb-4">
+                Our grandest assortment for weddings, VIP gifts, and corporate presentations.
+              </p>
+            </div>
+            <span class="text-xs text-brand-gold italic">Ask us for pricing</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 5. AMORE CAFE MENU (#cafe) -->
+  <!-- ========================================================================= -->
+  <section id="cafe" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold-dark block mb-2">Cafe &amp; Bakery</span>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">Amore Cafe Menu</h2>
+      <p class="text-zinc-600 text-sm mt-3">Freshly baked savory pastries, handcrafted cake slices, and aromatic barista-brewed coffee in Kalutara South.</p>
+      <div class="mt-4 flex items-center justify-center">
+        <a href="https://www.facebook.com/share/1FJDSpR9XA/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-chocolate/10 text-brand-chocolate hover:bg-brand-chocolate hover:text-white text-xs font-semibold uppercase tracking-wider transition-all border border-brand-chocolate/20 shadow-sm">
+          <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>Amore Cafe on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="flex items-center justify-center gap-3 mb-12">
+      <button id="tab-bakery-btn" onclick="switchMenuTab('bakery')" class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-brand-dark text-brand-gold shadow-md">
+        Savory &amp; Bakery
+      </button>
+      <button id="tab-beverages-btn" onclick="switchMenuTab('beverages')" class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-zinc-200 text-zinc-700 hover:bg-zinc-300">
+        Artisan Beverages
+      </button>
+    </div>
+
+    <!-- Savory & Bakery Content with Real Bakery Photos -->
+    <div id="tab-bakery-content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Item: Chocolate Cake Slice (REAL PHOTO: Cakes/12.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cakes/12.jpg', 'Decadent Chocolate Cake Slice', 'Rich dark cocoa sponge with Revello chocolate fudge, strawberries, and gold leaf.')">
+            <img src="./Cakes/12.jpg" alt="Revello Chocolate Cake Slice" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Chocolate Cake Slices</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-900 font-medium">Revello Cocoa</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Decadent dark cocoa sponge layered with rich Revello chocolate fudge, fresh strawberries, and gold leaf.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Chocolate%20Cake%20Slices." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Fresh Cashew Brownies (REAL PHOTO: Cakes/10.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cakes/10.jpg', 'Fresh Baked Cashew Brownies', 'Warm, fudgy chocolate brownies topped with roasted Sri Lankan cashews.')">
+            <img src="./Cakes/10.jpg" alt="Fresh Cashew Brownies" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Cashew Fudge Brownies</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-medium">Fresh Baked</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Baked daily in small batches: rich cocoa brownies generously topped with roasted cashew nuts and chocolate ganache.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Cashew%20Fudge%20Brownies." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Gourmet Floral Cupcakes (REAL PHOTO: Cakes/837537840_...n.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cakes/837537840_1092102467122805_1357321952739541798_n.jpg', 'Revello Chocolate Floral Cupcakes', 'Delicate cupcakes topped with floral piped cream and molded Revello chocolate hearts.')">
+            <img src="./Cakes/837537840_1092102467122805_1357321952739541798_n.jpg" alt="Revello Cupcakes" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Revello Treat Cupcakes</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-pink-100 text-brand-pink-deep font-medium">Artisan</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Fluffy vanilla cupcakes crowned with floral buttercream petals and handcrafted Revello molded chocolates.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Revello%20Treat%20Cupcakes." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Artisan Rolls (REAL PHOTO: Cafe/Rolls.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Rolls.jpg', 'Artisan Rolls', 'Golden-crusted savory rolls filled with spiced culinary savory preparations, baked fresh every morning.')">
+            <img src="./Cafe/Rolls.jpg" alt="Artisan Rolls" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Artisan Rolls</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-medium">Fresh Baked</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Golden-crusted savory rolls filled with spiced culinary savory preparations, baked fresh every morning.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Artisan%20Rolls." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Flaky Puff Patties (REAL PHOTO: Cafe/Patties.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Patties.jpg', 'Flaky Puff Patties', 'Flaky, multi-layered golden puff pastry parcels stuffed with aromatic savory fillings.')">
+            <img src="./Cafe/Patties.jpg" alt="Flaky Puff Patties" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Flaky Puff Patties</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-medium">Crispy Crust</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Flaky, multi-layered golden puff pastry parcels stuffed with aromatic savory fillings.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Flaky%20Puff%20Patties." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Coffee Cake (REAL PHOTO: Cafe/Coffee cake.webp) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Coffee cake.webp', 'Espresso Coffee Cake', 'Aromatic espresso-infused sponge topped with cinnamon brown sugar crumble and coffee drizzle.')">
+            <img src="./Cafe/Coffee cake.webp" alt="Espresso Coffee Cake" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Espresso Coffee Cake</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-orange-100 text-orange-900 font-medium">Barista Choice</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Aromatic espresso-infused sponge topped with cinnamon brown sugar crumble and coffee drizzle.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Espresso%20Coffee%20Cake." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Beverages Content (Initially hidden) -->
+    <div id="tab-beverages-content" class="hidden grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Item: Cappuccino (REAL PHOTO: Cafe/Cappuccino.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Cappuccino.jpg', 'Classic Cappuccino', 'Rich espresso topped with thick velvety milk foam and a gentle dusting of Revello cocoa powder.')">
+            <img src="./Cafe/Cappuccino.jpg" alt="Classic Cappuccino" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Classic Cappuccino</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-900 font-medium">Hot</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Rich espresso topped with thick velvety milk foam and a gentle dusting of Revello cocoa powder.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20a%20Cappuccino." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Latte (REAL PHOTO: Cafe/Latte.jpg) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Latte.jpg', 'Cafe Latte', 'Silky steamed milk combined with freshly pulled espresso for a delicate and smooth coffee balance.')">
+            <img src="./Cafe/Latte.jpg" alt="Cafe Latte" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Cafe Latte</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-900 font-medium">Hot / Iced</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Silky steamed milk combined with freshly pulled espresso for a delicate and smooth coffee balance.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20a%20Cafe%20Latte." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Item: Hot Chocolate (REAL PHOTO: Cafe/Hot Chocolate.webp) -->
+      <div class="bg-brand-cream-card rounded-2xl overflow-hidden shadow-md border border-zinc-200/80 hover:border-brand-gold/50 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="h-44 w-full overflow-hidden bg-black/10 cursor-pointer" onclick="openPhotoModal('./Cafe/Hot%20Chocolate.webp', 'Revello Hot Chocolate', 'Melted Revello dark chocolate whipped with creamy milk into an unforgettably rich chocolate indulgence.')">
+            <img src="./Cafe/Hot%20Chocolate.webp" alt="Revello Hot Chocolate" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-6 pb-2">
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <h4 class="font-serif text-lg font-bold text-brand-dark">Revello Hot Chocolate</h4>
+              <span class="text-xs px-2 py-0.5 rounded bg-brand-gold/20 text-brand-chocolate font-bold">House Signature</span>
+            </div>
+            <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+              Melted Revello dark chocolate whipped with creamy milk into an unforgettably rich chocolate indulgence.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex items-center justify-between border-t border-zinc-100 mt-2">
+          <span class="text-xs text-zinc-500 font-medium">Price upon order</span>
+          <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I'd%20like%20to%20order%20Revello%20Hot%20Chocolate." target="_blank" class="text-xs text-brand-gold-dark hover:underline font-semibold flex items-center gap-1">
+            <span>Order</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 6. ICE CREAM CORNER (#ice-cream) -->
+  <!-- ========================================================================= -->
+  <section id="ice-cream" class="py-24 bg-gradient-to-b from-amber-50/70 via-orange-50/40 to-brand-cream border-y border-amber-200/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] font-semibold text-amber-700 block mb-2">Cool Delights</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-amber-950">Ice Cream Corner</h2>
+        <p class="text-zinc-600 text-sm mt-3">
+          Design your custom ice cream masterpiece. Crafted to order with your choice of premium scoops, rich drizzles, and decadent toppings.
+        </p>
+      </div>
+
+      <!-- 3-Step Custom Creation Visual as per Blueprint -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        
+        <!-- Step 1 -->
+        <div class="bg-white/90 rounded-2xl p-8 text-center shadow-lg border border-amber-200/80 relative">
+          <div class="w-12 h-12 rounded-full bg-amber-100 text-amber-900 font-serif font-bold text-lg flex items-center justify-center mx-auto mb-4 border border-amber-300">
+            1
+          </div>
+          <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-800 flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="cone" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold text-amber-950 mb-2">Pick a Base</h4>
+          <p class="text-zinc-600 text-xs sm:text-sm leading-relaxed">
+            Choose your presentation: crispy waffle cone, classic cup, or a decadent dessert bowl.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white/90 rounded-2xl p-8 text-center shadow-lg border border-amber-200/80 relative">
+          <div class="w-12 h-12 rounded-full bg-amber-100 text-amber-900 font-serif font-bold text-lg flex items-center justify-center mx-auto mb-4 border border-amber-300">
+            2
+          </div>
+          <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-800 flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="sparkle" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold text-amber-950 mb-2">Add Flavors</h4>
+          <p class="text-zinc-600 text-xs sm:text-sm leading-relaxed">
+            Select from our fresh rotating counter of creamy classic and exotic seasonal scoops.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white/90 rounded-2xl p-8 text-center shadow-lg border border-amber-200/80 relative">
+          <div class="w-12 h-12 rounded-full bg-amber-100 text-amber-900 font-serif font-bold text-lg flex items-center justify-center mx-auto mb-4 border border-amber-300">
+            3
+          </div>
+          <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-800 flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="cherry" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold text-amber-950 mb-2">Top It Your Way</h4>
+          <p class="text-zinc-600 text-xs sm:text-sm leading-relaxed">
+            Finish with melted Revello chocolate drizzle, crushed nuts, sprinkles, or fruit toppings.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center">
+        <a href="https://wa.me/94777002044?text=Hello%20Amore!%20%F0%9F%8D%A6%0A%0AI%20would%20love%20to%20learn%20more%20about%20your%20Customized%20Ice%20Cream%20creations%20(flavors%2C%20toppings%2C%20and%20options%20available%20today).%20Thank%20you!"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white px-8 py-3.5 rounded-full font-semibold text-xs uppercase tracking-wider shadow-lg transition-all transform hover:-translate-y-0.5">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Ask About Custom Ice Cream</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 7. CUSTOM CAKE STUDIO & INQUIRY (#cakes) -->
+  <!-- ========================================================================= -->
+  <section id="cakes" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Studio Header with Brand Emblem from PDF -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-block mb-4">
+        <img src="./public/brand/logo-sama-cakes.svg" alt="Sama Dream Cakes by Amore" class="h-28 sm:h-32 mx-auto object-contain drop-shadow-md">
+      </div>
+      <p class="font-display text-xs uppercase tracking-[0.25em] text-brand-pink-deep font-semibold mb-2">Your Dream a Reality</p>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-dark mb-4">Custom Cake Studio</h2>
+      <p class="text-zinc-600 text-sm sm:text-base leading-relaxed">
+        Bespoke celebration cakes for weddings, birthdays, anniversaries, graduations, and baby showers. Every creation is designed with passion, elegance, and pure artisanal quality.
+      </p>
+      <div class="mt-4 flex flex-wrap items-center justify-center gap-3">
+        <a href="https://www.facebook.com/share/19pTY9JCZ1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink-100 text-brand-pink-deep hover:bg-pink-200 text-xs font-semibold uppercase tracking-wider transition-all border border-pink-200 shadow-sm">
+          <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>Dream Cakes on Facebook</span>
+        </a>
+        <a href="https://www.tiktok.com/@samadreamcakes?_r=1&amp;_t=ZS-9BhU23ATOir" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900 text-zinc-100 hover:bg-black text-xs font-semibold uppercase tracking-wider transition-all border border-zinc-700 shadow-sm">
+          <svg class="w-3.5 h-3.5 fill-current shrink-0 text-pink-400" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68 6.34 6.34 0 0 0 9.35 22a6.33 6.33 0 0 0 6.34-6.32V8.45a8.28 8.28 0 0 0 4.9 1.6V6.69z"/></svg>
+          <span>Dream Cakes on TikTok</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Filter Chips as per Blueprint -->
+    <div class="flex flex-wrap items-center justify-center gap-2 mb-10">
+      <button onclick="filterCakes('all')" class="cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-brand-dark text-brand-gold shadow" data-filter="all">All Creations</button>
+      <button onclick="filterCakes('birthday')" class="cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-white text-zinc-700 hover:bg-pink-100 border border-zinc-200" data-filter="birthday">Birthday</button>
+      <button onclick="filterCakes('wedding')" class="cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-white text-zinc-700 hover:bg-pink-100 border border-zinc-200" data-filter="wedding">Wedding</button>
+      <button onclick="filterCakes('anniversary')" class="cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-white text-zinc-700 hover:bg-pink-100 border border-zinc-200" data-filter="anniversary">Anniversary</button>
+      <button onclick="filterCakes('other')" class="cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-white text-zinc-700 hover:bg-pink-100 border border-zinc-200" data-filter="other">Baby Shower &amp; Novelty</button>
+    </div>
+
+    <!-- Cake Cards Showcase with Real Customer Cake Photos -->
+    <div id="cake-gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+      
+      <!-- Cake 1: Inuka Strawberry Chocolate Drip (Birthday) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="birthday">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/Hero.jpg', 'Inuka Chocolate Strawberry Drip Cake', 'Vanilla butter cake smothered in dark chocolate ganache drip and fresh strawberries.')">
+          <img src="./Cakes/Hero.jpg" alt="Inuka Chocolate Drip Birthday Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-amber-500/90 text-brand-dark px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Birthday</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-brand-pink-deep uppercase tracking-wider block mb-1">Birthday Collection</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Inuka Chocolate Strawberry Drip</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Signature chocolate drip cake topped with fresh halved strawberries, golden topper, and custom name plaque.
+          </p>
+          <button onclick="prefillCakeOccasion('Birthday')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 2: Golden Hearts Couple Figurine (Wedding / Anniversary) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="wedding anniversary">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/16.jpg', 'Golden Hearts Anniversary Cake', 'Romantic anniversary cake with interlocking golden hearts, pearl dragees, and tuxedo figurine.')">
+          <img src="./Cakes/16.jpg" alt="Anniversary Couple Figurine Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-rose-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Wedding / Anniversary</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-rose-700 uppercase tracking-wider block mb-1">Romance &amp; Milestones</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Golden Hearts Anniversary Cake</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Elegantly textured white buttercream with golden double hearts, bride and groom figurine, and gold leaf base.
+          </p>
+          <button onclick="prefillCakeOccasion('Anniversary')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 3: Dulaj Tiered Chocolate (Birthday) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="birthday">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/3.jpg', 'Dulaj Two-Tier Chocolate Extravaganza', 'Two tiers adorned with golden spheres, Revello chocolates, and fresh strawberries.')">
+          <img src="./Cakes/3.jpg" alt="Dulaj Tiered Chocolate Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-amber-500/90 text-brand-dark px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Tiered Birthday</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-amber-800 uppercase tracking-wider block mb-1">Grand Celebrations</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Dulaj Two-Tier Chocolate Drip</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Double-tier chocolate showstopper loaded with Revello bonbons, golden spheres, and fresh strawberries.
+          </p>
+          <button onclick="prefillCakeOccasion('Birthday')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 4: Vintage Lambeth Pearl (Anniversary / Birthday) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="anniversary birthday">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/8.jpg', 'Vintage Lambeth Ribbon Cake', 'Vintage Lambeth overpiping in pastel pink and ivory with pink satin ribbons and pearls.')">
+          <img src="./Cakes/8.jpg" alt="Vintage Lambeth Ribbon Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-pink-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Vintage Style</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-brand-pink-deep uppercase tracking-wider block mb-1">Vintage Lambeth</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Vintage Pink &amp; Pearl Ribbon</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Intricate vintage Lambeth shell borders, delicate ribbon bows, and pearl garlands on rustic wood slice.
+          </p>
+          <button onclick="prefillCakeOccasion('Anniversary')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 5: Udari Peach Blossom (Birthday / Anniversary) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="birthday anniversary">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/5.jpg', 'Udari Peach Blossom Cake', 'Peach rosette swirls with delicate gold leaves and custom wooden Happy Birthday topper.')">
+          <img src="./Cakes/5.jpg" alt="Udari Peach Blossom Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-amber-500/90 text-brand-dark px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Floral</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-rose-600 uppercase tracking-wider block mb-1">Floral Celebration</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Udari Peach Blossom Rosette</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Creamy white frosted cake with cascading peach buttercream rosettes and shimmering edible pearl dragees.
+          </p>
+          <button onclick="prefillCakeOccasion('Birthday')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 6: Butterfly & Gold Leaf (Wedding / Anniversary) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="wedding anniversary">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/9.jpg', 'Pastel Butterfly Gold Leaf Cake', 'Pastel pink and ivory cake with 24k gold leaf line and sugar butterflies.')">
+          <img src="./Cakes/9.jpg" alt="Pastel Butterfly Gold Leaf Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-brand-gold text-brand-dark px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Luxury Wedding</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-brand-gold-dark uppercase tracking-wider block mb-1">Gold Leaf Luxury</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Butterfly &amp; 24K Gold Leaf</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Two-tone pastel finish with a rough-edged 24k gold leaf divider and sculpted blossom butterflies.
+          </p>
+          <button onclick="prefillCakeOccasion('Wedding')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 7: Shenoli 12 Fuzzy Character (Novelty / Other) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="other birthday">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/17.jpg', 'Shenoli 12 Purple Furry Character Cake', 'Custom 3D sculpted novelty character cake featured in the brand PDF.')">
+          <img src="./Cakes/17.jpg" alt="Shenoli 12 Character Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-purple-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Novelty 3D</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-purple-700 uppercase tracking-wider block mb-1">Brand PDF Feature</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Shenoli 12 Furry Novelty Cake</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Featured on Brand PDF Page 3: custom sculpted 3D purple fuzzy textured character cake with edible ears.
+          </p>
+          <button onclick="prefillCakeOccasion('Other')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 8: Kalana Football (Birthday) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="birthday">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/4.jpg', 'Kalana Football Champion Cake', 'Soccer themed celebration cake with grass turf piping and player silhouette.')">
+          <img src="./Cakes/4.jpg" alt="Kalana Football Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Sports Theme</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-emerald-800 uppercase tracking-wider block mb-1">Themed Birthday</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Kalana Football Champion Cake</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Soccer pitch grass piping, player silhouette, crown football topper, and personalized name lettering.
+          </p>
+          <button onclick="prefillCakeOccasion('Birthday')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cake 9: Senuki Baby Shower / Christening (Other) -->
+      <div class="cake-card bg-white rounded-2xl overflow-hidden shadow-lg border border-pink-100 group transition-all duration-300 hover:shadow-2xl" data-category="other">
+        <div class="relative h-64 overflow-hidden bg-pink-50 cursor-pointer" onclick="openPhotoModal('./Cakes/15.jpg', 'Senuki Christening & Baby Booties', 'Fondant christening cake with handcrafted pink sugar baby shoes and rosary.')">
+          <img src="./Cakes/15.jpg" alt="Senuki Christening Cake" class="w-full h-full object-cover img-zoom">
+          <span class="absolute top-3 left-3 bg-pink-500 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider shadow">Baby Shower</span>
+          <div class="absolute bottom-3 right-3 bg-white/90 rounded-full p-2 text-zinc-600 shadow group-hover:text-brand-pink-deep">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <span class="text-[11px] font-semibold text-pink-700 uppercase tracking-wider block mb-1">Baby Shower &amp; Blessings</span>
+          <h4 class="font-serif text-lg font-bold text-brand-dark mb-1">Christening &amp; Baby Booties</h4>
+          <p class="text-zinc-600 text-xs leading-relaxed mb-4">
+            Handcrafted sugar baby booties, pink fondant ribbon bow, and delicate pearl rosary with cross.
+          </p>
+          <button onclick="prefillCakeOccasion('Other')" class="text-xs font-semibold text-brand-pink-deep hover:underline flex items-center gap-1">
+            <span>Enquire about this style</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- CAKE ORDER INQUIRY FORM (CakeInquiryForm) -->
+    <!-- ===================================================================== -->
+    <div id="cake-inquiry-section" class="bg-gradient-to-br from-brand-pink-soft via-white to-pink-50/50 rounded-3xl p-8 sm:p-12 border border-pink-200 shadow-xl max-w-4xl mx-auto">
+      <div class="text-center max-w-xl mx-auto mb-10">
+        <span class="text-xs uppercase tracking-widest font-semibold text-brand-pink-deep block mb-1">Custom Orders</span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">Request a Custom Cake Quote</h3>
+        <p class="text-zinc-600 text-xs sm:text-sm mt-2">
+          Tell us about your celebration. We'll verify design requirements, date availability, and pricing directly on WhatsApp.
+        </p>
+      </div>
+
+      <form id="cake-inquiry-form" onsubmit="handleCakeSubmit(event)" class="space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Full Name -->
+          <div>
+            <label for="cake-name" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Full Name <span class="text-rose-500">*</span></label>
+            <input type="text" id="cake-name" required placeholder="e.g. Ruwan Perera" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+
+          <!-- Phone / WhatsApp -->
+          <div>
+            <label for="cake-phone" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Phone / WhatsApp <span class="text-rose-500">*</span></label>
+            <input type="tel" id="cake-phone" required placeholder="e.g. 077 700 2044" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <!-- Email (Optional) -->
+          <div>
+            <label for="cake-email" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Email (Optional)</label>
+            <input type="email" id="cake-email" placeholder="you@email.com" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+
+          <!-- Occasion -->
+          <div>
+            <label for="cake-occasion" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Occasion <span class="text-rose-500">*</span></label>
+            <select id="cake-occasion" required class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+              <option value="">Select occasion...</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Anniversary">Anniversary</option>
+              <option value="Christmas">Christmas</option>
+              <option value="Graduation">Graduation</option>
+              <option value="Baby Shower">Baby Shower</option>
+              <option value="Other">Other Celebration</option>
+            </select>
+          </div>
+
+          <!-- Date Needed -->
+          <div>
+            <label for="cake-date" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Date Needed <span class="text-rose-500">*</span></label>
+            <input type="date" id="cake-date" required class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Flavor / Filling -->
+          <div>
+            <label for="cake-flavor" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Flavor / Filling Preference</label>
+            <input type="text" id="cake-flavor" placeholder="e.g. Revello Chocolate Fudge, Vanilla, Strawberry" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+
+          <!-- Approx Servings / Weight -->
+          <div>
+            <label for="cake-servings" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Estimated Servings / Size</label>
+            <input type="text" id="cake-servings" placeholder="e.g. 15-20 guests / 1.5 kg" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white">
+          </div>
+        </div>
+
+        <!-- Design Notes & Message -->
+        <div>
+          <label for="cake-notes" class="block text-xs uppercase font-semibold text-zinc-700 mb-1">Design Ideas / Inscription on Cake</label>
+          <textarea id="cake-notes" rows="3" placeholder="Tell us your theme, favorite colors, or text to write on the cake (e.g. 'Happy 25th Anniversary')" class="w-full px-4 py-2.5 rounded-xl border border-zinc-300 focus:outline-none focus:ring-2 focus:ring-brand-pink-deep/50 text-sm bg-white"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="pt-2">
+          <button type="submit" class="w-full py-4 rounded-full bg-gradient-to-r from-brand-pink-deep to-rose-600 hover:from-rose-700 hover:to-pink-700 text-white font-semibold text-xs uppercase tracking-widest shadow-lg shadow-pink-500/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Send Cake Inquiry on WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Guidance note as requested in blueprint -->
+        <div class="text-center text-xs text-zinc-500 leading-relaxed pt-2">
+          <p>Please order in advance. We'll confirm availability and pricing. You can attach reference photos in the WhatsApp chat after submitting.</p>
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 8. PRIVATE PARTY AREA (#party) -->
+  <!-- ========================================================================= -->
+  <section id="party" class="py-24 bg-brand-surface text-white border-t border-brand-gold/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Headline using venue name "Amore" -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold block mb-2">Private Celebrations</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-4 text-gold-gradient">Amore Private Party Area</h2>
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          Celebrate life's precious moments in our dedicated, bookable venue space. Ideal for intimate birthdays, family get-togethers, anniversaries, and private gatherings — seamlessly paired with handcrafted Amore cakes and Revello confectionery.
+        </p>
+      </div>
+
+      <!-- Real Venue Party Area Feature Showcase -->
+      <div class="relative rounded-3xl overflow-hidden mb-16 border border-brand-gold/30 shadow-2xl group cursor-pointer" onclick="openPhotoModal('./Interior photos/eb7de7a6-ea25-49ea-8c63-c5cd400a93b0.jpg', 'Amore Private Party & Seating Area', 'Cozy, air-conditioned venue lounge with illuminated Amore logo, warm ambient lighting, and group tables.')">
+        <div class="h-80 sm:h-[420px] w-full overflow-hidden">
+          <img src="./Interior photos/eb7de7a6-ea25-49ea-8c63-c5cd400a93b0.jpg" alt="Amore Private Party Seating Area with Patrons" class="w-full h-full object-cover img-zoom">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent flex items-end p-6 sm:p-10">
+          <div>
+            <span class="text-xs uppercase font-semibold tracking-widest text-brand-gold block mb-1">Bookable Venue Space</span>
+            <h3 class="font-serif text-2xl sm:text-4xl font-bold text-white mb-2">The Celebration Lounge</h3>
+            <p class="text-xs sm:text-sm text-zinc-300 max-w-2xl leading-relaxed">
+              Air-conditioned, warm and inviting dining space with our glowing wall-mounted Amore emblem. Ready for your private family dinners, birthday celebrations, and cake cutting milestones.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Highlights Row with Icons as specified -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        
+        <div class="bg-brand-surface-card rounded-2xl p-6 text-center border border-white/5 hover:border-brand-gold/40 transition-colors">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-white mb-1">Private Space</h4>
+          <p class="text-zinc-400 text-xs">Exclusively reserved for you and your guests.</p>
+        </div>
+
+        <div class="bg-brand-surface-card rounded-2xl p-6 text-center border border-white/5 hover:border-brand-gold/40 transition-colors">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="party-popper" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-white mb-1">Celebrations</h4>
+          <p class="text-zinc-400 text-xs">Birthdays, milestones, and family reunions.</p>
+        </div>
+
+        <div class="bg-brand-surface-card rounded-2xl p-6 text-center border border-white/5 hover:border-brand-gold/40 transition-colors">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="users" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-white mb-1">Get-Togethers</h4>
+          <p class="text-zinc-400 text-xs">Warm, ambient, air-conditioned seating.</p>
+        </div>
+
+        <div class="bg-brand-surface-card rounded-2xl p-6 text-center border border-white/5 hover:border-brand-gold/40 transition-colors">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="cake" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-white mb-1">Cakes &amp; Treats</h4>
+          <p class="text-zinc-400 text-xs">Pair with custom cakes &amp; Revello chocolates.</p>
+        </div>
+
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- PARTY BOOKING INQUIRY FORM (PartyBookingForm) -->
+      <!-- ===================================================================== -->
+      <div class="bg-brand-surface-card rounded-3xl p-8 sm:p-12 border border-brand-gold/30 shadow-2xl max-w-4xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-gold block mb-1">Event Inquiries</span>
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Inquire About Venue Availability</h3>
+          <p class="text-zinc-400 text-xs sm:text-sm mt-2">
+            Share your preferred event details with us below. We will check the calendar and confirm hosting arrangements.
+          </p>
+          <div class="inline-block mt-3 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-[11px]">
+            * Note: This is an inquiry, not a confirmed booking.
+          </div>
+        </div>
+
+        <form id="party-booking-form" onsubmit="handlePartySubmit(event)" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Full Name -->
+            <div>
+              <label for="party-name" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Full Name <span class="text-brand-gold">*</span></label>
+              <input type="text" id="party-name" required placeholder="e.g. Anoma Jayasinghe" class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+
+            <!-- Phone / WhatsApp -->
+            <div>
+              <label for="party-phone" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Phone / WhatsApp <span class="text-brand-gold">*</span></label>
+              <input type="tel" id="party-phone" required placeholder="e.g. 077 700 2044" class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <!-- Email -->
+            <div>
+              <label for="party-email" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Email (Optional)</label>
+              <input type="email" id="party-email" placeholder="you@email.com" class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+
+            <!-- Event Type -->
+            <div>
+              <label for="party-type" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Event Type <span class="text-brand-gold">*</span></label>
+              <select id="party-type" required class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+                <option value="">Select event...</option>
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Family Get-Together">Family Get-Together</option>
+                <option value="Anniversary Celebration">Anniversary Celebration</option>
+                <option value="Graduation Celebration">Graduation Party</option>
+                <option value="Other">Other Gathering</option>
+              </select>
+            </div>
+
+            <!-- Approx Guests -->
+            <div>
+              <label for="party-guests" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Number of Guests <span class="text-brand-gold">*</span></label>
+              <input type="number" id="party-guests" required min="1" max="100" placeholder="e.g. 15" class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Preferred Date -->
+            <div>
+              <label for="party-date" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Preferred Date <span class="text-brand-gold">*</span></label>
+              <input type="date" id="party-date" required class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+
+            <!-- Preferred Time -->
+            <div>
+              <label for="party-time" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Preferred Time</label>
+              <input type="time" id="party-time" class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm">
+            </div>
+          </div>
+
+          <!-- Add Custom Cake Checkbox -->
+          <div class="flex items-center gap-3 p-4 rounded-xl bg-white/5 border border-white/10">
+            <input type="checkbox" id="party-cake" class="w-5 h-5 rounded text-brand-gold focus:ring-brand-gold accent-amber-500">
+            <label for="party-cake" class="text-xs text-zinc-300 cursor-pointer">
+              <span class="font-semibold text-white">Add a custom cake?</span> We can coordinate custom Sama Dream Cakes &amp; Revello treats for your party.
+            </label>
+          </div>
+
+          <!-- Special Requests -->
+          <div>
+            <label for="party-notes" class="block text-xs uppercase font-semibold text-zinc-300 mb-1">Special Requests / Theme / Decoration Notes</label>
+            <textarea id="party-notes" rows="3" placeholder="Tell us if you have seating preferences, cake cutting requirements, or dietary requests." class="w-full px-4 py-2.5 rounded-xl border border-white/10 bg-black/40 text-white focus:outline-none focus:ring-2 focus:ring-brand-gold/50 text-sm"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="pt-2">
+            <button type="submit" class="w-full py-4 rounded-full bg-brand-gold hover:bg-amber-400 text-brand-dark font-semibold text-xs uppercase tracking-widest shadow-lg shadow-brand-gold/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4"></i>
+              <span>Send Party Inquiry on WhatsApp</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 9. ABOUT & VENUE GALLERY (#about) -->
+  <!-- ========================================================================= -->
+  <section id="about" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+      
+      <!-- Brand Story -->
+      <div>
+        <span class="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold-dark block mb-2">Our Story</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark mb-6">Welcome to Amore Kalutara</h2>
+        <div class="space-y-4 text-zinc-600 text-sm leading-relaxed">
+          <p>
+            Located at <strong>250, Main Street, Kalutara South</strong>, Amore was created around a single heartfelt belief: that every moment shared with the ones we cherish deserves to be celebrated.
+          </p>
+          <p>
+            Whether you are savoring artisan Revello chocolates crafted with silky cocoa, enjoying freshly baked pastries with barista coffee, planning a custom tiered celebration cake with Sama Dream Cakes, or reserving our private party venue for family memories, our doors are open with genuine warmth.
+          </p>
+          <p>
+            Step inside our ambient cafe setting and experience handcrafted culinary artistry right in the heart of Kalutara.
+          </p>
+        </div>
+
+        <div class="mt-8 flex items-center gap-6">
+          <div>
+            <span class="block font-serif text-2xl font-bold text-brand-dark">Kalutara South</span>
+            <span class="text-xs text-zinc-500">250 Main Street</span>
+          </div>
+          <div class="h-8 w-px bg-zinc-300"></div>
+          <div>
+            <span class="block font-serif text-2xl font-bold text-brand-gold-dark">100% Artisan</span>
+            <span class="text-xs text-zinc-500">Handcrafted Daily</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Storefront Feature Card -->
+      <div class="relative rounded-3xl overflow-hidden bg-brand-surface text-white border border-brand-gold/30 shadow-2xl group cursor-pointer" onclick="openPhotoModal('./Exterior photos/Location photo.jpg', 'Amore Main Street Location', '250, Main Street, Kalutara South')">
+        <div class="h-80 w-full overflow-hidden">
+          <img src="./Exterior photos/Location photo.jpg" alt="Amore Storefront Facade" class="w-full h-full object-cover img-zoom">
+        </div>
+        <div class="p-6 bg-brand-surface">
+          <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-3">
+            <div>
+              <h4 class="font-serif text-lg font-bold text-gold-gradient">Amore Storefront</h4>
+              <span class="text-xs text-zinc-400">Kalutara Main Street</span>
+            </div>
+            <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-[11px] font-semibold border border-emerald-500/30">
+              Open Daily
+            </span>
+          </div>
+          <p class="text-zinc-300 text-xs leading-relaxed">
+            Look for our illuminated billboard on Main Street featuring the Revello chef and Amore floral insignia.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Gallery Tabs: Interior | Exterior -->
+    <div class="pt-8 border-t border-zinc-200">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h3 class="font-serif text-2xl font-bold text-brand-dark">Venue Gallery</h3>
+          <p class="text-xs text-zinc-500">Explore the atmosphere of Amore</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="venue-tab-interior" onclick="switchVenueTab('interior')" class="px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-dark text-brand-gold shadow">
+            Interior
+          </button>
+          <button id="venue-tab-exterior" onclick="switchVenueTab('exterior')" class="px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-zinc-200 text-zinc-700 hover:bg-zinc-300">
+            Exterior
+          </button>
+        </div>
+      </div>
+
+      <!-- Interior View Grid with REAL PHOTOS -->
+      <div id="venue-interior-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Interior 1: Counter & Patrons -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Interior photos/796808901_1080041781662207_2717720871074186448_n.jpg', 'Revello Boutique Counter & Display Cases', 'Our welcoming chocolate boutique counter featuring illuminated cases and wall-mounted emblem.')">
+          <div class="h-48 overflow-hidden">
+            <img src="./Interior photos/796808901_1080041781662207_2717720871074186448_n.jpg" alt="Revello Boutique Counter" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark text-sm mb-1">Boutique Counter</h5>
+            <p class="text-[11px] text-zinc-500">Display counter &amp; wall seal</p>
+          </div>
+        </div>
+
+        <!-- Interior 2: Private Lounge Seating -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Interior photos/eb7de7a6-ea25-49ea-8c63-c5cd400a93b0.jpg', 'Cafe Seating & Private Party Lounge', 'Cozy air-conditioned seating area with illuminated Amore emblem.')">
+          <div class="h-48 overflow-hidden">
+            <img src="./Interior photos/eb7de7a6-ea25-49ea-8c63-c5cd400a93b0.jpg" alt="Private Lounge Seating" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark text-sm mb-1">Party &amp; Cafe Seating</h5>
+            <p class="text-[11px] text-zinc-500">Air-conditioned comfort</p>
+          </div>
+        </div>
+
+        <!-- Interior 3: Bonbon Showcase -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Interior photos/796276087_1080041264995592_806912621322252294_n.jpg', 'Artisan Chocolate Showcase', 'Multi-tier refrigerated glass counter filled with freshly tempered pralines.')">
+          <div class="h-48 overflow-hidden">
+            <img src="./Interior photos/796276087_1080041264995592_806912621322252294_n.jpg" alt="Artisan Chocolate Showcase" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark text-sm mb-1">Chocolate Counter</h5>
+            <p class="text-[11px] text-zinc-500">Fresh daily pralines &amp; bonbons</p>
+          </div>
+        </div>
+
+        <!-- Interior 4: Entrance Doors -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Interior photos/818813388_1080041121662273_807392801882615553_n.jpg', 'Revello Speciality Glass Entrance', 'Main street entrance doors with gold Revello Speciality emblem.')">
+          <div class="h-48 overflow-hidden">
+            <img src="./Interior photos/818813388_1080041121662273_807392801882615553_n.jpg" alt="Entrance Glass Doors" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark text-sm mb-1">Entrance Doors</h5>
+            <p class="text-[11px] text-zinc-500">Gold emblem facade</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Exterior View Grid with REAL PHOTOS (Initially hidden) -->
+      <div id="venue-exterior-grid" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-6">
+        
+        <!-- Exterior 1: Full Location Photo -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Exterior photos/Location photo.jpg', 'Amore & Revello Storefront', '250, Main Street, Kalutara South facade with illuminated signage.')">
+          <div class="h-64 overflow-hidden">
+            <img src="./Exterior photos/Location photo.jpg" alt="Storefront facade" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark mb-1">250 Main Street Facade</h5>
+            <p class="text-xs text-zinc-500">Visible from Kalutara South Main Street</p>
+          </div>
+        </div>
+
+        <!-- Exterior 2: Entrance Detail -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow border border-zinc-200 hover:border-brand-gold transition-colors cursor-pointer group" onclick="openPhotoModal('./Interior photos/818813388_1080041121662273_807392801882615553_n.jpg', 'Entrance & Glass Signage', 'Gold hot-stamped branding on main entrance doors.')">
+          <div class="h-64 overflow-hidden">
+            <img src="./Interior photos/818813388_1080041121662273_807392801882615553_n.jpg" alt="Entrance Details" class="w-full h-full object-cover img-zoom">
+          </div>
+          <div class="p-4">
+            <h5 class="font-serif font-bold text-brand-dark mb-1">Welcoming Entrance</h5>
+            <p class="text-xs text-zinc-500">Step inside our air-conditioned boutique</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 10. CONTACT, MAP & FOOTER (#contact) -->
+  <!-- ========================================================================= -->
+  <section id="contact" class="py-24 bg-brand-dark text-white border-t border-brand-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold block mb-2">Connect With Us</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">Visit Amore in Kalutara</h2>
+        <p class="text-zinc-400 text-sm mt-3">We look forward to welcoming you. Reach out for cake inquiries, venue bookings, or directions.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
+        
+        <!-- Contact Information Cards -->
+        <div class="space-y-6">
+          
+          <!-- Address -->
+          <div class="bg-brand-surface rounded-2xl p-6 border border-white/10 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center shrink-0 mt-1">
+              <i data-lucide="map-pin" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <h4 class="font-serif text-lg font-bold text-white">Address</h4>
+                <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-medium border border-emerald-500/30">
+                  <i data-lucide="check" class="w-3 h-3"></i>
+                  <span>Google Verified</span>
+                </span>
+              </div>
+              <p class="text-zinc-300 text-sm">250, Main Street, Kalutara South, Sri Lanka</p>
+              <div class="flex flex-wrap items-center gap-3 mt-3">
+                <a href="https://maps.app.goo.gl/i3GJw5g5CaHuZ89R6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-brand-gold/15 hover:bg-brand-gold hover:text-brand-dark text-xs text-brand-gold transition-all font-semibold border border-brand-gold/30">
+                  <i data-lucide="navigation" class="w-3.5 h-3.5"></i>
+                  <span>Open in Google Maps</span>
+                </a>
+                <a href="https://maps.app.goo.gl/i3GJw5g5CaHuZ89R6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs text-zinc-400 hover:text-white transition-colors">
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400"></i>
+                  <span>Reviews &amp; Photos</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone & WhatsApp -->
+          <div class="bg-brand-surface rounded-2xl p-6 border border-white/10 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center shrink-0 mt-1">
+              <i data-lucide="phone-call" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h4 class="font-serif text-lg font-bold text-white mb-1">Direct Phone &amp; WhatsApp</h4>
+              <p class="text-zinc-300 text-sm mb-2">077 700 2044 &nbsp;|&nbsp; +94 77 700 2044</p>
+              <div class="flex items-center gap-3">
+                <a href="tel:+94777002044" class="px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-xs text-white transition-colors">
+                  Call Us
+                </a>
+                <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I%20would%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-xs text-white font-medium transition-colors flex items-center gap-1">
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp Chat</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hours -->
+          <div class="bg-brand-surface rounded-2xl p-6 border border-white/10 flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-brand-gold/20 text-brand-gold flex items-center justify-center shrink-0 mt-1">
+              <i data-lucide="clock" class="w-5 h-5"></i>
+            </div>
+            <div class="w-full">
+              <h4 class="font-serif text-lg font-bold text-white mb-2">Opening Hours</h4>
+              <div class="space-y-1.5 text-xs text-zinc-300">
+                <div class="flex justify-between py-1 border-b border-white/5">
+                  <span class="text-zinc-400">Monday – Thursday</span>
+                  <span>09:00 AM – 09:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 border-b border-white/5">
+                  <span class="text-zinc-400">Friday – Saturday</span>
+                  <span>09:00 AM – 10:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span class="text-zinc-400">Sunday</span>
+                  <span>10:00 AM – 09:30 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Socials as from PDF -->
+          <div class="bg-brand-surface rounded-2xl p-6 border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h4 class="font-serif text-base font-bold text-white">Follow Our Journey</h4>
+              <p class="text-xs text-zinc-400">Connect with our official Facebook pages &amp; TikTok</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-2.5">
+              <a href="https://www.facebook.com/share/1FJDSpR9XA/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-full bg-white/10 hover:bg-[#1877F2] hover:text-white text-xs text-zinc-200 transition-all flex items-center gap-2 border border-white/10 shadow-sm group">
+                <svg class="w-4 h-4 text-[#1877F2] group-hover:text-white fill-current shrink-0 transition-colors" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span class="font-medium">Amore Cafe</span>
+              </a>
+              <a href="https://www.facebook.com/share/19pTY9JCZ1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-full bg-pink-500/20 hover:bg-brand-pink-deep text-xs text-pink-200 hover:text-white transition-all flex items-center gap-2 border border-pink-400/30 shadow-sm group">
+                <svg class="w-4 h-4 text-pink-400 group-hover:text-white fill-current shrink-0 transition-colors" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span class="font-medium">Dream Cakes</span>
+              </a>
+              <a href="https://www.tiktok.com/@samadreamcakes?_r=1&amp;_t=ZS-9BhU23ATOir" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-full bg-white/10 hover:bg-zinc-800 text-xs text-zinc-200 hover:text-white transition-all flex items-center gap-2 border border-white/10 shadow-sm group">
+                <svg class="w-4 h-4 text-pink-400 group-hover:text-pink-300 fill-current shrink-0 transition-colors" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68 6.34 6.34 0 0 0 9.35 22a6.33 6.33 0 0 0 6.34-6.32V8.45a8.28 8.28 0 0 0 4.9 1.6V6.69z"/></svg>
+                <span class="font-medium">TikTok @samadreamcakes</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Google Map Iframe as required -->
+        <div class="rounded-2xl overflow-hidden border border-brand-gold/30 shadow-2xl h-full min-h-[420px] bg-brand-surface relative flex flex-col">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.385565545229!2d79.9575822!3d6.5864197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae23769c3a067ff%3A0x6b8ddfa0c2ba58c1!2sMain%20St%2C%20Kalutara!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk" 
+            width="100%" 
+            height="100%" 
+            style="border:0; min-height: 380px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Amore Location Map"
+            class="flex-1">
+          </iframe>
+          <div class="p-4 bg-brand-surface flex flex-wrap items-center justify-between gap-3 border-t border-white/10">
+            <div class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-brand-gold"></i>
+              <span class="text-xs text-zinc-300 font-medium">250, Main Street, Kalutara South</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <a href="https://maps.app.goo.gl/i3GJw5g5CaHuZ89R6" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-xs tracking-wider transition-colors flex items-center gap-1.5 border border-white/10">
+                <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>View Profile</span>
+              </a>
+              <a href="https://maps.app.goo.gl/i3GJw5g5CaHuZ89R6" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full bg-brand-gold text-brand-dark font-semibold text-xs uppercase tracking-wider hover:bg-amber-400 transition-colors flex items-center gap-1.5 shadow">
+                <i data-lucide="navigation" class="w-3.5 h-3.5"></i>
+                <span>Get Directions</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="pt-12 border-t border-white/10 text-center text-xs text-zinc-500 space-y-4">
+        <div class="flex items-center justify-center gap-3">
+          <img src="./public/brand/logo-light.svg" alt="Amore" class="w-10 h-10 object-contain drop-shadow-md">
+          <span class="font-serif text-lg font-bold text-gold-gradient">Amore</span>
+        </div>
+        <p class="text-zinc-400 text-xs">
+          Celebrating Life's Little Moments &nbsp;·&nbsp; Revello Speciality Chocolates &nbsp;·&nbsp; Sama Dream Cakes &nbsp;·&nbsp; Amore Cafe
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-4 text-xs">
+          <a href="https://www.facebook.com/share/1FJDSpR9XA/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Amore Cafe Facebook</span>
+          </a>
+          <span class="text-zinc-600">·</span>
+          <a href="https://www.facebook.com/share/19pTY9JCZ1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-pink-400 flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Dream Cakes Facebook</span>
+          </a>
+          <span class="text-zinc-600">·</span>
+          <a href="https://www.tiktok.com/@samadreamcakes?_r=1&amp;_t=ZS-9BhU23ATOir" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-white flex items-center gap-1.5 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current shrink-0 text-pink-400" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68 6.34 6.34 0 0 0 9.35 22a6.33 6.33 0 0 0 6.34-6.32V8.45a8.28 8.28 0 0 0 4.9 1.6V6.69z"/></svg>
+            <span>Dream Cakes TikTok</span>
+          </a>
+        </div>
+        <p class="text-zinc-600">
+          &copy; 2026 Amore. All rights reserved. 250, Main Street, Kalutara South.
+        </p>
+      </footer>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 11. GLOBAL FLOATING WHATSAPP BUTTON (Bottom Right) -->
+  <!-- ========================================================================= -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/94777002044?text=Hello%20Amore!%20I%20would%20like%20to%20order%20or%20make%20an%20inquiry." 
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp with Amore"
+       class="flex items-center justify-center w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl whatsapp-pulse transition-transform hover:scale-110">
+      <i data-lucide="message-circle" class="w-7 h-7"></i>
+    </a>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- 12. HIGH-RESOLUTION PHOTO PREVIEW LIGHTBOX MODAL -->
+  <!-- ========================================================================= -->
+  <div id="photo-modal" class="fixed inset-0 z-50 bg-black/95 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="relative max-w-3xl w-full bg-brand-surface rounded-3xl overflow-hidden border border-brand-gold/30 text-white shadow-2xl flex flex-col max-h-[90vh]">
+      <button onclick="closePhotoModal()" aria-label="Close Preview" class="absolute top-4 right-4 z-10 text-white bg-black/60 hover:bg-black/90 p-2 rounded-full backdrop-blur-sm transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex-1 overflow-hidden bg-black flex items-center justify-center min-h-[300px]">
+        <img id="photo-modal-img" src="" alt="Photo preview" class="max-h-[60vh] w-auto max-w-full object-contain">
+      </div>
+
+      <div class="p-6 bg-brand-surface border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <span class="text-[10px] uppercase tracking-widest text-brand-gold block font-semibold mb-1">Amore Gallery</span>
+          <h4 id="photo-modal-title" class="font-serif text-xl font-bold text-white">Item Title</h4>
+          <p id="photo-modal-desc" class="text-zinc-400 text-xs mt-1 max-w-md">Item description...</p>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <a id="photo-modal-wa-btn" href="https://wa.me/94777002044" target="_blank" class="px-5 py-2.5 rounded-full bg-brand-gold text-brand-dark text-xs uppercase tracking-wider font-semibold hover:bg-amber-400 flex items-center gap-1.5 shadow">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Enquire on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- 13. SUCCESS CONFIRMATION MODAL -->
+  <!-- ========================================================================= -->
+  <div id="success-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="relative max-w-md w-full bg-white rounded-3xl p-8 text-center shadow-2xl border border-zinc-200">
+      <div class="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="check-circle" class="w-8 h-8"></i>
+      </div>
+      <h4 id="success-title" class="font-serif text-2xl font-bold text-brand-dark mb-2">Inquiry Prepared!</h4>
+      <p id="success-message" class="text-zinc-600 text-xs sm:text-sm leading-relaxed mb-6">
+        WhatsApp should open automatically with your prefilled details.
+      </p>
+      <div class="space-y-3">
+        <a id="success-fallback-link" href="#" target="_blank" class="block w-full py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs uppercase tracking-wider transition-colors">
+          Didn't open? Tap here to open WhatsApp
+        </a>
+        <button onclick="closeSuccessModal()" class="block w-full py-2.5 rounded-full border border-zinc-300 text-zinc-600 hover:bg-zinc-100 font-semibold text-xs uppercase tracking-wider transition-colors">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- CLIENT JAVASCRIPT LOGIC -->
+  <!-- ========================================================================= -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile Drawer Navigation
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const mobileClose = document.getElementById('mobile-close');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    function openMobileDrawer() {
+      mobileDrawer.classList.remove('translate-x-full');
+    }
+    function closeMobileDrawer() {
+      mobileDrawer.classList.add('translate-x-full');
+    }
+    if (mobileToggle) mobileToggle.addEventListener('click', openMobileDrawer);
+    if (mobileClose) mobileClose.addEventListener('click', closeMobileDrawer);
+    mobileLinks.forEach(link => link.addEventListener('click', closeMobileDrawer));
+
+    // Sticky Navbar Background Shadow on Scroll
+    const header = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        header.classList.add('bg-brand-dark/98', 'shadow-xl');
+        header.classList.remove('bg-brand-dark/95');
+      } else {
+        header.classList.add('bg-brand-dark/95');
+        header.classList.remove('bg-brand-dark/98', 'shadow-xl');
+      }
+    });
+
+    // Cafe Menu Tab Switching
+    function switchMenuTab(category) {
+      const bakeryBtn = document.getElementById('tab-bakery-btn');
+      const beveragesBtn = document.getElementById('tab-beverages-btn');
+      const bakeryContent = document.getElementById('tab-bakery-content');
+      const beveragesContent = document.getElementById('tab-beverages-content');
+
+      if (category === 'bakery') {
+        bakeryBtn.className = "px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-brand-dark text-brand-gold shadow-md";
+        beveragesBtn.className = "px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-zinc-200 text-zinc-700 hover:bg-zinc-300";
+        bakeryContent.classList.remove('hidden');
+        beveragesContent.classList.add('hidden');
+      } else {
+        beveragesBtn.className = "px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-brand-dark text-brand-gold shadow-md";
+        bakeryBtn.className = "px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-semibold transition-all bg-zinc-200 text-zinc-700 hover:bg-zinc-300";
+        beveragesContent.classList.remove('hidden');
+        bakeryContent.classList.add('hidden');
+      }
+      lucide.createIcons();
+    }
+
+    // Venue Gallery Tab Switching (Interior | Exterior)
+    function switchVenueTab(tab) {
+      const intBtn = document.getElementById('venue-tab-interior');
+      const extBtn = document.getElementById('venue-tab-exterior');
+      const intGrid = document.getElementById('venue-interior-grid');
+      const extGrid = document.getElementById('venue-exterior-grid');
+
+      if (tab === 'interior') {
+        intBtn.className = "px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-dark text-brand-gold shadow";
+        extBtn.className = "px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-zinc-200 text-zinc-700 hover:bg-zinc-300";
+        intGrid.classList.remove('hidden');
+        extGrid.classList.add('hidden');
+      } else {
+        extBtn.className = "px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-dark text-brand-gold shadow";
+        intBtn.className = "px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-zinc-200 text-zinc-700 hover:bg-zinc-300";
+        extGrid.classList.remove('hidden');
+        intGrid.classList.add('hidden');
+      }
+      lucide.createIcons();
+    }
+
+    // Cake Gallery Filter Logic
+    function filterCakes(category) {
+      const buttons = document.querySelectorAll('.cake-filter-btn');
+      const cards = document.querySelectorAll('.cake-card');
+
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-filter') === category) {
+          btn.className = "cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-brand-dark text-brand-gold shadow";
+        } else {
+          btn.className = "cake-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all bg-white text-zinc-700 hover:bg-pink-100 border border-zinc-200";
+        }
+      });
+
+      cards.forEach(card => {
+        const categories = card.getAttribute('data-category').split(' ');
+        if (category === 'all' || categories.includes(category)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    // Prefill Cake Occasion from gallery card click
+    function prefillCakeOccasion(occasion) {
+      const select = document.getElementById('cake-occasion');
+      if (select) select.value = occasion;
+      const section = document.getElementById('cake-inquiry-section');
+      if (section) section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Set Min Date on Date Pickers to prevent past dates
+    const today = new Date().toISOString().split('T')[0];
+    const cakeDateInput = document.getElementById('cake-date');
+    const partyDateInput = document.getElementById('party-date');
+    if (cakeDateInput) cakeDateInput.min = today;
+    if (partyDateInput) partyDateInput.min = today;
+
+    // High-Resolution Photo Modal Controls
+    const photoModal = document.getElementById('photo-modal');
+    const photoModalImg = document.getElementById('photo-modal-img');
+    const photoModalTitle = document.getElementById('photo-modal-title');
+    const photoModalDesc = document.getElementById('photo-modal-desc');
+    const photoModalWaBtn = document.getElementById('photo-modal-wa-btn');
+
+    function openPhotoModal(imgSrc, title, desc) {
+      photoModalImg.src = imgSrc;
+      photoModalTitle.textContent = title;
+      photoModalDesc.textContent = desc;
+      const msg = encodeURIComponent(`Hello Amore! I am inquiring about: "${title}". Could you please provide more details or pricing?`);
+      photoModalWaBtn.href = `https://wa.me/94777002044?text=${msg}`;
+      photoModal.classList.remove('hidden');
+      photoModal.classList.add('flex');
+    }
+
+    function closePhotoModal() {
+      photoModal.classList.add('hidden');
+      photoModal.classList.remove('flex');
+    }
+
+    // Success Modal Controls
+    const successModal = document.getElementById('success-modal');
+    const successTitle = document.getElementById('success-title');
+    const successMessage = document.getElementById('success-message');
+    const successFallback = document.getElementById('success-fallback-link');
+
+    function showSuccessModal(title, msg, link) {
+      successTitle.textContent = title;
+      successMessage.textContent = msg;
+      successFallback.href = link;
+      successModal.classList.remove('hidden');
+      successModal.classList.add('flex');
+    }
+
+    function closeSuccessModal() {
+      successModal.classList.add('hidden');
+      successModal.classList.remove('flex');
+    }
+
+    // Close on Escape Key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closePhotoModal();
+        closeSuccessModal();
+      }
+    });
+
+    // Handle Cake Form Submit
+    function handleCakeSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('cake-name').value.trim();
+      const phone = document.getElementById('cake-phone').value.trim();
+      const email = document.getElementById('cake-email').value.trim();
+      const occasion = document.getElementById('cake-occasion').value;
+      const date = document.getElementById('cake-date').value;
+      const flavor = document.getElementById('cake-flavor').value.trim();
+      const servings = document.getElementById('cake-servings').value.trim();
+      const notes = document.getElementById('cake-notes').value.trim();
+
+      const textLines = [
+        '*🎂 NEW CAKE ORDER INQUIRY — AMORE*',
+        '----------------------------------------',
+        `*Customer:* ${name}`,
+        `*Phone/WhatsApp:* ${phone}`,
+        email ? `*Email:* ${email}` : null,
+        `*Occasion:* ${occasion}`,
+        `*Date Needed:* ${date}`,
+        flavor ? `*Flavor / Filling:* ${flavor}` : null,
+        servings ? `*Estimated Servings / Size:* ${servings}` : null,
+        notes ? `*Design Notes / Cake Text:* ${notes}` : null,
+        '----------------------------------------',
+        '_Sent via Amore Website inquiry form._'
+      ].filter(Boolean);
+
+      const url = `https://wa.me/94777002044?text=${encodeURIComponent(textLines.join('\n'))}`;
+      
+      window.open(url, '_blank');
+
+      showSuccessModal(
+        'Cake Inquiry Prepared!',
+        'Your custom cake inquiry message is ready. Opening WhatsApp to connect directly with the Amore cake studio.',
+        url
+      );
+    }
+
+    // Handle Party Form Submit
+    function handlePartySubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('party-name').value.trim();
+      const phone = document.getElementById('party-phone').value.trim();
+      const email = document.getElementById('party-email').value.trim();
+      const eventType = document.getElementById('party-type').value;
+      const date = document.getElementById('party-date').value;
+      const time = document.getElementById('party-time').value;
+      const guests = document.getElementById('party-guests').value;
+      const cake = document.getElementById('party-cake').checked;
+      const notes = document.getElementById('party-notes').value.trim();
+
+      const textLines = [
+        '*🎉 PRIVATE PARTY AREA INQUIRY — AMORE*',
+        '----------------------------------------',
+        `*Customer:* ${name}`,
+        `*Phone/WhatsApp:* ${phone}`,
+        email ? `*Email:* ${email}` : null,
+        `*Event Type:* ${eventType}`,
+        `*Preferred Date:* ${date}`,
+        time ? `*Preferred Time:* ${time}` : null,
+        `*Approx. Number of Guests:* ${guests}`,
+        `*Add Custom Cake:* ${cake ? 'Yes, please!' : 'No / Undecided'}`,
+        notes ? `*Special Requests / Theme:* ${notes}` : null,
+        '----------------------------------------',
+        '_Note: This is an inquiry request awaiting confirmation._'
+      ].filter(Boolean);
+
+      const url = `https://wa.me/94777002044?text=${encodeURIComponent(textLines.join('\n'))}`;
+
+      window.open(url, '_blank');
+
+      showSuccessModal(
+        'Party Inquiry Prepared!',
+        'Your venue booking inquiry is ready. Opening WhatsApp to connect with the Amore events coordinator.',
+        url
+      );
+    }
+  </script>
+</body>
+</html>
